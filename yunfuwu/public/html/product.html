@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="../css/product.min.css">
+</head>
+<body>
+<!--头部、导航条-->
+<header id="header"></header>
+<!--主体部分-->
+<section id="main">
+    <div id="picture">
+        <img src="../images/product/product-banner.jpg">
+        <div class="img-title active">
+            <h1>自主创新跨平台企业级浏览器内核</h1>
+            <p>光明网曾考虑过通过原生App来实现移动化,但是由于无法复用原始业务流程和数据就放弃了,直到选用了云适配整<br/>体解决方案后,可
+                以很方便的在Enterplorer上使用一个帐号登录我们的系统,通过VPN随时进入内网。</p>
+            <button type="button">
+                <a href="">了解更多</a>
+            </button>
+        </div>
+        <div class="img-title">
+            <h1>自主创新跨平台企业级浏览器内核</h1>
+            <p>光明网曾考虑过通过原生App来实现移动化,但是由于无法复用原始业务流程和数据就放弃了,直到选用了云适配整<br/>体解决方案后,可
+                以很方便的在Enterplorer上使用一个帐号登录我们的系统,通过VPN随时进入内网。</p>
+            <button type="button">
+                <a href="">了解更多</a>
+            </button>
+        </div>
+        <div class="img-title">
+            <h1>自主创新跨平台企业级浏览器内核</h1>
+            <p>光明网曾考虑过通过原生App来实现移动化,但是由于无法复用原始业务流程和数据就放弃了,直到选用了云适配整<br/>体解决方案后,可
+                以很方便的在Enterplorer上使用一个帐号登录我们的系统,通过VPN随时进入内网。</p>
+            <button type="button">
+                <a href="">了解更多</a>
+            </button>
+        </div>
+        <div class="img-title">
+            <h1>自主创新跨平台企业级浏览器内核</h1>
+            <p>光明网曾考虑过通过原生App来实现移动化,但是由于无法复用原始业务流程和数据就放弃了,直到选用了云适配整<br/>体解决方案后,可
+                以很方便的在Enterplorer上使用一个帐号登录我们的系统,通过VPN随时进入内网。</p>
+            <button type="button">
+                <a href="">了解更多</a>
+            </button>
+        </div>
+    </div>
+    <div id="register">
+        <span>注册即获 Enterplorer账号,畅想不一定的移动办公时代。</span>
+        <a href="register.html">注册</a>
+    </div>
+    <div id="content">
+        <div>
+            <img src="../images/index/r1.jpg" alt=""/>
+            <h2>移动办公化</h2>
+            <p>基于风靡社区的React.js封装组件,沿袭高性能、可复用、易扩展等特性,保证企业应用技术栈保持国际领先。</p>
+            <a href="#">了解内容&gt;&gt;</a>
+        </div>
+        <div>
+            <img src="../images/index/r1.jpg" alt=""/>
+            <h2>移动办公化</h2>
+            <p>基于风靡社区的React.js封装组件,沿袭高性能、可复用、易扩展等特性,保证企业应用技术栈保持国际领先。</p>
+            <a href="#">了解内容&gt;&gt;</a>
+        </div>
+        <div>
+            <img src="../images/index/r1.jpg" alt=""/>
+            <h2>移动办公化</h2>
+            <p>基于风靡社区的React.js封装组件,沿袭高性能、可复用、易扩展等特性,保证企业应用技术栈保持国际领先。</p>
+            <a href="#">了解内容&gt;&gt;</a>
+        </div>
+    </div>
+    <div id="example">
+        <div class="e-content">
+            <h1>跨平台企业级浏览器内核</h1>
+            <p>全球独创专利技术：一行代码部署,帮助企业快速安全地将现有PC版网页适配成HTML5跨屏网页,跨平台的企业统一办公门户,快捷的移动适配开发能力,完备的数据安全保护</p>
+        </div>
+        <div class="e-picture">
+            <img src="../images/product/product_show1.jpg" alt=""/>
+            <img src="../images/product/product_show2.jpg" alt=""/>
+            <img src="../images/product/product_show3.jpg" alt=""/>
+            <img src="../images/product/product_show4.jpg" alt=""/>
+            <img src="../images/product/product_show5.jpg" alt=""/>
+            <img src="../images/product/product_show6.jpg" alt=""/>
+            <img src="../images/product/product_show7.jpg" alt=""/>
+            <img src="../images/product/product_show8.jpg" alt=""/>
+            <img src="../images/product/product_show9.jpg" alt=""/>
+        </div>
+    </div>
+</section>
+<!--页面底部-备案号-->
+<footer id="footer"></footer>
+<script src="../js/jquery-1.11.3.min.js"></script>
+<script>
+    $('#header').load('header.html', function(){
+        if(sessionStorage['loginUname']===undefined){
+            $('#welcome').html('您好，欢迎来到本网站')
+        }else{
+            $('#welcome').html('欢迎回来：'+sessionStorage['loginUname']);
+        }
+
+    });
+    $('#footer').load('footer.html');
+</script>
+</body>
+</html>

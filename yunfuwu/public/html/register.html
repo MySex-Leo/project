@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        #main{
+            text-align: center;
+            height:auto;
+            border-top: 1px solid #F4F4F4;
+            position: relative;
+        }
+        #main video{
+            position: absolute;
+            left:0;
+            z-index: -1;
+            width: 1300px;
+        }
+        div.box{
+            background: rgba(255, 255, 255, 0.7);
+            width: 70%;
+            border-radius: 5px;
+            box-shadow: 0 0 5px #aaa;
+            margin-top: 130px;
+            margin-left: 15%;
+        }
+        #main p{
+            color: #000;
+            font-size: 30px;
+            margin-top: 50px;
+        }
+        #main form div{
+            margin-top: 30px;
+        }
+        #main form div span{
+            font-size: 20px;
+        }
+        #main form div input{
+            height:25px;
+            width: 250px;
+            margin-left: 20px;
+        }
+        #bt-register{
+            width: 130px;
+            height: 40px;
+            margin: 50px auto;
+            background: #68C6DE;
+            border-color: transparent;
+            border-radius: 25px;
+        }
+    </style>
+</head>
+<body>
+<div id="header"></div>
+<div id="main">
+    <video src="../res/snow.mp4" autoplay loop muted></video>
+    <div class="box">
+        <table></table>
+        <p>注册用户</p>
+        <form>
+            <div>
+                <span>输入账号</span>
+                <input type="text" id="uname" placeholder="请输入用户名" required autofocus/>
+            </div>
+            <div>
+                <span>输入密码</span>
+                <input type="password" id="upwd1" placeholder="请输入密码" required minlength="6" maxlength="12"/>
+            </div>
+            <div>
+                <span>确认密码</span>
+                <input type="password" id="upwd2" placeholder="请输入相同的密码" required minlength="6" maxlength="12"/>
+            </div>
+            <input type="button" id="bt-register" value="注册用户"/>
+        </form>
+    </div>
+
+</div>
+<script src="../js/jquery-1.11.3.min.js"></script>
+<script src="../js/register.min.js"></script>
+</body>
+</html>

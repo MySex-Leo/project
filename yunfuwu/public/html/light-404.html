@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        #light-main{
+            margin:10px auto;
+            text-align: center;
+            width: 1300px;
+            background: url(../images/logo/pattern-light.png) repeat;
+        }
+        #light-main h1{
+            font-size: 175px;
+            font-weight:500;
+        }
+        #light-main h3{
+            font-size:30px;
+            font-weight: normal;
+        }
+        #light-main p{
+            font-size:20px;
+            margin-top: 20px;
+        }
+        #light-main button{
+            border: 2px solid #ADADAD;
+            width:100px;
+            height: 40px;
+            margin: 60px auto;
+            background: transparent;
+            color: #ADADAD;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+<div id="header"></div>
+<div id="light-main">
+    <h1>404</h1>
+    <h3>Page Not Found</h3>
+    <p>对不起,没有找到您所需要的页面,可能是URL不确定,或者页面已被移除。</p>
+    <button type="button" onclick="window.location.href='index.html'">首页</button>
+</div>
+<script src="../js/jquery-1.11.3.min.js"></script>
+<script>
+    $('#header').load('header.html', function(){
+        if(sessionStorage['loginUname']===undefined){
+            $('#welcome').html('您好，欢迎来到本网站')
+        }else{
+            $('#welcome').html('欢迎回来：'+sessionStorage['loginUname']);
+        }
+
+    });
+</script>
+</body>
+</html>

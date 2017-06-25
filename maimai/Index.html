@@ -1,0 +1,2893 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>买买网-国内知名的B2B电子商务平台，免费的B2B电子商务网站</title>
+	<link rel="stylesheet" href="css/base.min.css"/>
+	<link rel="stylesheet" href="css/top.min.css" />
+	<link rel="stylesheet" href="css/main.min.css" />
+</head>
+<body>
+<!-- 头部文件 -->
+<header>
+	<div class="bigBox topWrapper topWrapper_color">
+		<div class="topBox">
+			<p class="welcome fn-clear">
+				<span>您好，欢迎来到买买网</span>
+				<a class="login unLogin" href="">[请登录]</a>
+				<a class="unLogin" href="#">[免费注册]</a>
+			</p>
+			<ul class="toplist fn-clear">
+				<li class="li_p5">
+					<a href="#" class="a_hover01">买买首页</a>
+				</li>
+				<li data-flag="y" class="down">
+					<a href="#">我的买买<i></i></a>
+					<div class="menulist myinfo fn-hide" >
+						<div class="user-info fn-hide">
+							<img width="32" height="32" id="hImg" src="">
+							<ul>
+								<li><em id="username"></em><a href="">[资料设置]</a></li>
+								<li>
+									<p><b>身份认证：</b>
+										<a id="emailAuthor" title="邮箱认证" class="cmail fn-hide" href="" style="display: none;"></a>
+										<a id="renameAuthor" title="实名认证" class="cname fn-hide" href="" style="display: none;"></a>
+										<a id="mobileAuthor" title="手机认证" class="cmobile fn-hide" href="" style="display: none;"></a> </p>
+								</li>
+							</ul>
+						</div>
+						<div class="menunavlist">
+							<dl>
+								<dt>采购</dt>
+								<dd><a href="">发布采购需求</a></dd>
+								<dd><a href="">管理询价单</a></dd>
+							</dl>
+							<dl>
+								<dt>供应</dt>
+								<dd><a href="">发布供应产品</a></dd>
+								<dd><a href="">管理供应产品</a></dd>
+							</dl>
+							<dl>
+								<dt>公司</dt>
+								<dd><a href="">管理公司网站</a></dd>
+								<dd><a href="">完善公司资料</a></dd>
+							</dl>
+						</div>
+					</div>
+				</li>
+				<li class="down">
+					<a href="#" class="marg_top">购物车 <em class="em_ts">0</em><i></i></a>
+					<div class="menulist receipt fn-hide">
+						<p class="rec_p">进货单中暂未添加任何货品</p>
+						<p class="rec_vei"><a href="" class="fn-right">查看购物车</a></p>
+					</div>
+				</li>
+				<li class="down">
+					<a href=""><em class="scj_star"></em>收藏夹<i></i></a>
+					<div class="menulist fn-hide" style="display: none;">
+						<ul class="value value_wid">
+							<li><a href="">收藏的货品</a></li>
+							<li><a href="">收藏的卖家</a></li>
+						</ul>
+					</div>
+				</li>
+				<li class="down">
+					<a href="">生财通服务<i></i></a>
+					<div class="menulist fn-hide">
+						<ul class="value">
+							<li class="sct_zx"><a href="" class="online">免费咨询</a></li>
+							<li class="sct_ty"><a href="">新手体验</a></li>
+							<li class="sct_and"><a href="">加入生财通</a></li>
+							<li class="sct_xf"><a href="">老客户续费</a></li>
+							<li class="sct_yh"><a href="">优惠活动</a></li>
+						</ul>
+					</div>
+				</li>
+				<li class="li_p5"><a href="" class="a_hover01">我是供应商</a></li>
+				<li class="down"><a href="">客户服务<i></i></a>
+					<div class="menulist fn-hide">
+						<ul class="value">
+							<li><a href="">常见问题</a></li>
+							<li><a href="">自助服务</a></li>
+							<li><a href="">联系客服</a></li>
+							<li><a href="">我要举报</a></li>
+							<li><a href="">意见反馈</a></li>
+						</ul>
+					</div>
+				</li>
+				<li class="down"><a href="">网站导航<i></i></a>
+					<div class="menulist menunav menun_ovef fn-hide" style="display: none;">
+						<div class="menunavlist ">
+							<dl class="item_dl">
+								<dt>行业市场</dt>
+								<dd><a href="">原材料</a><em>|</em><a href="">工业品</a> <em>|</em><a href="">机械</a> <em>|</em><a href="">服装</a></dd>
+								<dd><a href="">家居百货</a><em>|</em> <a href="">数码家电</a><em>|</em><a href="">小商品</a></dd>
+								<dd><a href="">鞋包</a><em>|</em><a href="">纺织</a><em>|</em> <a href="">农食</a><em>|</em><a href="#">美妆</a></dd>
+							</dl>
+							<dl class="item_dl">
+								<dt>买家服务</dt>
+								<dd><a href="">注册账户 </a><em>|</em><a href="">发布采购</a> <em>|</em><a href="">贸易防骗</a></dd>
+								<dd><a href="">询价单管理</a><em>|</em> <a href="">我的卖家</a></dd>
+							</dl>
+							<dl class="item_dl">
+								<dt>卖家服务</dt>
+								<dd><a href="">发布产品 </a><em>|</em><a href="">找采购信息</a></dd>
+								<dd><a href="">网站装修</a><em>|</em> <a href="">上传企业证书</a></dd>
+								<dd><a href="">相册管理 </a><em>|</em><a href="">商机助手</a></dd>
+							</dl>
+							<dl class="item_dl">
+								<dt>客服中心</dt>
+								<dd><a href="">常见问题 </a><em>|</em><a href="">自助服务</a></dd>
+								<dd><a href="">联系客服</a><em>|</em> <a href="">我要举报 </a><em>|</em><a href="">意见反馈</a></dd>
+							</dl>
+						</div>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+</header>
+
+<nav>
+	<div class="bigBox headerWrapper">
+		<div class="header">
+			<a class="logo fn-clear" href=""><img src="picture/logo_h_web.png" style="width:80px;height:35px;"><span style="color:#E06F21;font-size: 35px">买买网</span></a>
+			<form class="searchWrapper" method="get" id="searchForms">
+				<div class="searchBox fn-clear">
+					<div class="searchItem">
+						<ul class="searchItem-nav">
+							<li class="search-active xn-search" data-type="输入产品名称" data-url="product">产品</li>
+							<li class="search-line">|</li>
+							<li class="xn-search" data-type="输入求购关键字" data-url="purchase">求购</li>
+							<li class="search-line">|</li>
+							<li class="xn-search" data-type="输入公司名称或关键字" data-url="company">公司</li>
+						</ul>
+						<div class="searchTitle">
+							<input type="text" class="searchTxt search-input" placeholder="输入产品名称">
+							<a id="searchBtn" class="searchBtn searchBtn_color" data-type="product" href="">搜索</a>
+						</div>
+					</div>
+				</div>
+			</form>
+			<a class="searchBtn fbBtn" href="">发布询价单</a>
+			<div class="twoCode fn-clear">
+				<span class="twoCode-img"><img src="picture/wx_gzh_84.jpg"></span>
+				<span class="twoCode-word">扫码关注</span>
+			</div>
+		</div>
+	</div>
+</nav>
+
+<section>
+	<div class="container bgff">
+		<div class="main">
+			<ul class="fanNav">
+				<li class="fn-clear"><a href="" class="navList01">行业市场</a></li>
+				<li class="fn-clear"><a href="" class="navList02">采购商场</a></li>
+				<li class="fn-clear"><a href="" class="navList02">实力供应</a></li>
+				<li class="fn-clear"><a href="" class="navList02">商机快递</a></li>
+				<li class="fn-clear"><a href="" class="navList02">公司黄页</a></li>
+				<li class="fn-clear"><a href="" class="navList02">供应商专区</a></li>
+				<li class="fn-clear"><a href="" class="navList02">凡纳商城</a></li>
+			</ul>
+			<div class="fanBanner">
+				<!-- 分类 -->
+				<div class="fanSubnav bgfa">
+					<ul>
+						<li class="subList01"><a href="">服装服饰/</a><a href="">纺织皮革</a>
+							<div class="subNav-hidebox fn-hide">
+								<div class="subNav-hideword">
+									<div class="subhideT">服装服饰/纺织皮革</div>
+									<div class="subhideB">
+										<dl class="hide-dlsmall hide-dlmr">
+											<dt><a href="">女装</a></dt>
+											<dd>
+												<a href="">半身裙</a>
+												<a href="">连衣裙</a>
+												<a href="">女式衬衫</a>
+												<a href="">女式西装</a>
+												<a href="">职业女裙套装</a>
+												<a href="">女式外套</a>
+												<a href="">女式风衣</a>
+												<a href="">打底裤</a>
+												<a href="">女式卫衣</a>
+												<a href="">婚纱</a>
+												<a href="">礼服</a>
+												<a href="">旗袍</a>
+											</dd>
+										</dl>
+										<dl class="hide-dlsmall">
+											<dt><a href="">男装</a></dt>
+											<dd>
+												<a href="">夹克</a>
+												<a href="">大衣</a>
+												<a href="">休闲服</a>
+												<a href="">皮夹克</a>
+												<a href="">休闲西装</a>
+												<a href="">男式西服套装</a>
+												<a href="">男式T恤</a>
+												<a href="">男式衬衫</a>
+												<a href="">男式休闲裤</a>
+												<a href="">男式卫衣</a>
+											</dd>
+										</dl>
+										<dl class="hide-dlsmall hide-dlmr">
+											<dt><a href="">童装</a></dt>
+											<dd>
+												<a href="">童裙</a>
+												<a href="">童棉衣</a>
+												<a href="">童衬衫</a>
+												<a href="">童毛衣</a>
+												<a href="">童套装</a>
+												<a href="">童针织衫</a>
+												<a href="">童羽绒服</a>
+												<a href="">童牛仔服</a>
+												<a href="">童马甲背心</a>
+												<a href="">亲子装</a>
+											</dd>
+										</dl>
+										<dl class="hide-dlsmall">
+											<dt><a href="">内衣</a></dt>
+											<dd>
+												<a href="">保暖内衣</a>
+												<a href="">裹胸抹胸</a>
+												<a href="">内裤</a>
+												<a href="">功能塑身内衣</a>
+												<a href="">睡衣</a>
+												<a href="">浴袍</a>
+												<a href="">背心</a>
+												<a href="">胸垫</a>
+												<a href="">肩带</a>
+												<a href="">吊袜带</a>
+											</dd>
+										</dl>
+										<dl class="hide-dlsmall hide-dlmr">
+											<dt><a href="">混纺、交织类面料</a></dt>
+											<dd>
+												<a href="">棉毛混纺</a>
+												<a href="">涤棉混纺</a>
+												<a href="">其他混纺类面料</a>
+												<a href="">其他交织类面料</a>
+											</dd>
+										</dl>
+										<dl class="hide-dlsmall">
+											<dt><a href="">纺织辅料 </a></dt>
+											<dd>
+												<a href="">衬布</a>
+												<a href="">带、绳、线</a>
+												<a href="">魔术贴</a>
+												<a href="">花边</a>
+												<a href="">纽扣</a>
+												<a href="">服饰饰品</a>
+												<a href="">吊粒</a>
+												<a href="">吊牌</a>
+												<a href="">其他纺织辅料</a>
+											</dd>
+										</dl>
+									</div>
+								</div>
+							</div>
+						</li>
+						<li class="subList02"><a href="">运动休闲</a>
+							<div class="subNav-hidebox fn-hide">
+								<div class="subNav-hideword">
+									<div class="subhideT">运动休闲</div>
+									<div class="subhideB">
+										<dl>
+											<dt><a href="">运动休闲</a></dt>
+											<dd>
+												<a href="">运动T恤、POLO衫</a>
+												<a href="">运动裤</a>
+												<a href="">运动马甲</a>
+												<a href="">运动裙</a>
+												<a href="">运动羽绒服</a>
+												<a href="">睡袋</a>
+												<a href="">帐篷</a>
+												<a href="">吊床</a>
+												<a href="">汽车户外用品</a>
+												<a href="">户外运动服</a>
+												<a href="">登山扣、钩</a>
+												<a href="">充气泵</a>
+												<a href="">高尔夫练习器具</a>
+												<a href="">高尔夫球杆</a>
+												<a href="">高尔夫球车</a>
+												<a href="">高尔夫球袋</a>
+												<a href="">潜水用品</a>
+												<a href="">攀岩用品</a>
+												<a href="">蹦极用品</a>
+												<a href="">麻将</a>
+												<a href="">棋牌桌</a>
+												<a href="">麻将桌</a>
+												<a href="">国际象棋</a>
+											</dd>
+										</dl>
+										<dl>
+											<dt><a href="">箱包</a></dt>
+											<dd>
+												<a href="">时尚休闲包</a>
+												<a href="">行李箱包</a>
+												<a href="">箱包配件</a>
+												<a href="">电脑包</a>
+												<a href="">钥匙包</a>
+												<a href="">商务包</a>
+												<a href="">护照夹</a>
+												<a href="">证件夹</a>
+												<a href="">化妆包</a>
+												<a href="">航空箱</a>
+												<a href="">书包</a>
+												<a href="">钱包</a>
+												<a href="">卡包</a>
+											</dd>
+										</dl>
+										<dl>
+											<dt><a href="">鞋靴</a></dt>
+											<dd>
+												<a href="">单鞋</a>
+												<a href="">板鞋</a>
+												<a href="">帆布鞋</a>
+												<a href="">童鞋</a>
+												<a href="">婴儿鞋</a>
+												<a href="">运动鞋</a>
+												<a href="">棉鞋</a>
+												<a href="">雪地靴</a>
+												<a href="">童鞋</a>
+												<a href="">户外鞋</a>
+												<a href="">成人袜</a>
+												<a href="">儿童袜</a>
+											</dd>
+										</dl>
+									</div>
+								</div>
+							</div>
+						</li>
+						<li class="subList03">
+							<a href="">包装/</a>
+							<a href="">印刷/</a>
+							<a href="">办公用品</a>
+							<div class="subNav-hidebox fn-hide">
+								<div class="subNav-hideword">
+									<div class="subhideT">包装/印刷/办公用品</div>
+									<div class="subhideB">
+										<dl class="hide-dlsmall hide-dlmr">
+											<dt><a href="">行业专用包装 </a></dt>
+											<dd>
+												<a href="">食品包装</a>
+												<a href="">礼品包装</a>
+												<a href="">茶叶包装</a>
+												<a href="">香烟包装</a>
+												<a href="">医药包装</a>
+												<a href="">饰品包装</a>
+												<a href="">化妆品包装</a>
+												<a href="">五金配件包装</a>
+												<a href="">保健品包装</a>
+											</dd>
+										</dl>
+										<dl class="hide-dlsmall">
+											<dt><a href="">纸类包装容器 </a></dt>
+											<dd>
+												<a href="">纸袋</a>
+												<a href="">纸箱</a>
+												<a href="">纸盒</a>
+												<a href="">纸罐</a>
+												<a href="">纸筒</a>
+												<a href="">纸管</a>
+												<a href="">纸浆模塑</a>
+												<a href="">纸杯</a>
+												<a href="">其他纸类包装容器</a>
+											</dd>
+										</dl>
+										<dl class="hide-dlsmall hide-dlmr">
+											<dt><a href="">文化、印刷用纸</a></dt>
+											<dd>
+												<a href="">热转印纸</a>
+												<a href="">铜版纸</a>
+												<a href="">新闻纸</a>
+												<a href="">水印纸</a>
+												<a href="">字典纸</a>
+												<a href="">胶版纸</a>
+												<a href="">宣纸</a>
+												<a href="">其他文化、印刷用纸</a>
+											</dd>
+										</dl>
+										<dl class="hide-dlsmall">
+											<dt><a href="">油墨</a></dt>
+											<dd>
+												<a href="">印铁油墨</a>
+												<a href="">塑料油墨</a>
+												<a href="">印布油墨</a>
+												<a href="">防伪油墨</a>
+												<a href="">橡胶油墨</a>
+												<a href="">印纸油墨</a>
+												<a href="">玻璃油墨</a>
+												<a href="">陶瓷油墨</a>
+											</dd>
+										</dl>
+										<dl class="hide-dlsmall hide-dlmr">
+											<dt><a href="">办公耗材</a></dt>
+											<dd>
+												<a href="">墨盒</a>
+												<a href="">墨水</a>
+												<a href="">色带</a>
+												<a href="">碳带</a>
+												<a href="">其他耗材</a>
+												<a href="">连续供墨系统</a>
+											</dd>
+										</dl>
+										<dl class="hide-dlsmall">
+											<dt><a href="">办公文化设备</a></dt>
+											<dd>
+												<a href="">打字机、刻字机</a>
+												<a href="">传真机</a>
+												<a href="">绘图机</a>
+												<a href="">碎纸机</a>
+												<a href="">点钞机、验钞机</a>
+												<a href="">保险柜</a>
+												<a href="">钉书机</a>
+											</dd>
+										</dl>
+									</div>
+								</div>
+							</div>
+						</li>
+						<li class="subList04"><a href="">食品饮料</a>
+							<div class="subNav-hidebox fn-hide">
+								<div class="subNav-hideword">
+									<div class="subhideT">食品饮料</div>
+									<div class="subhideB">
+										<dl>
+											<dt>
+												<a href="">酒类</a>
+												<a href="">软饮料</a>
+											</dt>
+											<dd>
+												<a href="">黄酒</a>
+												<a href="">白酒</a>
+												<a href="">啤酒</a>
+												<a href="">葡萄酒、香槟</a>
+												<a href="">洋酒</a>
+												<a href="">果酒</a>
+												<a href="">保健酒</a>
+												<a href="">其他酒类</a>
+												<a href="">茶饮料</a>
+												<a href="">碳酸饮料</a>
+												<a href="">纯净、矿泉水</a>
+												<a href="">果蔬汁</a>
+												<a href="">功能饮料</a>
+												<a href="">含乳饮料</a>
+												<a href="">其他软饮料</a>
+											</dd>
+										</dl>
+										<dl>
+											<dt><a href="">茶叶</a></dt>
+											<dd>
+												<a href="">青茶</a>
+												<a href="">乌龙茶</a>
+												<a href="">保健茶</a>
+												<a href="">红茶</a>
+												<a href="">绿茶</a>
+												<a href="">花果茶</a>
+												<a href="">普洱茶</a>
+												<a href="">其他茶叶</a>
+											</dd>
+										</dl>
+										<dl>
+											<dt><a href="">休闲食品</a></dt>
+											<dd>
+												<a href="">饼干糕点</a>
+												<a href="">膨化食品</a>
+												<a href="">糖果、巧克力</a>
+												<a href="">干果类</a>
+												<a href="">蜜饯类</a>
+												<a href="">炒货类</a>
+												<a href="">鱼干鱼丝</a>
+												<a href="">果冻类</a>
+												<a href="">其他休闲食品</a>
+											</dd>
+										</dl>
+									</div>
+								</div>
+
+							</div>
+						</li>
+						<li class="subList05">
+							<a href="">橡塑/</a>
+							<a href="">化工/</a>
+							<a href="">精品化学</a>
+							<div class="subNav-hidebox fn-hide">
+								<div class="subNav-hideword">
+									<div class="subhideT">橡塑/化工/精细化学品</div>
+									<div class="subhideB">
+										<dl class="hide-dlsmall hide-dlmr">
+											<dt><a href="">工程塑料</a></dt>
+											<dd>
+												<a href="">PTFE</a>
+												<a href="">PBT</a>
+												<a href="">PA46</a>
+												<a href="">PPO</a>
+												<a href="">PSU</a>
+												<a href="">PU</a>
+												<a href="">PP-R</a>
+												<a href="">PES</a>
+												<a href="">LCP</a>
+											</dd>
+										</dl>
+										<dl class="hide-dlsmall">
+											<dt><a href="">塑料薄膜</a></dt>
+											<dd>
+												<a href="">包装薄膜</a>
+												<a href="">离型膜</a>
+												<a href="">农用薄膜</a>
+												<a href="">功能薄膜</a>
+												<a href="">安全膜</a>
+											</dd>
+										</dl>
+										<dl class="hide-dlsmall hide-dlmr">
+											<dt>
+												<a href="">酮</a>
+												<a href="">醛</a>
+											</dt>
+											<dd>
+												<a href="">丙酮</a>
+												<a href="">异佛尔酮</a>
+												<a href="">环己酮</a>
+												<a href="">庚酮</a>
+												<a href="">戊酮</a>
+												<a href="">苯乙酮</a>
+												<a href="">肉桂醛</a>
+												<a href="">甲醛</a>
+												<a href="">多聚甲醛</a>
+												<a href="">丁醛</a>
+												<a href="">戊醛</a>
+												<a href="">乙醛</a>
+												<a href="">丙醛</a>
+												<a href="">庚醛</a>
+											</dd>
+										</dl>
+										<dl class="hide-dlsmall">
+											<dt>
+												<a href="">化学试剂</a>
+												<a href="">化学纤维</a>
+											</dt>
+											<dd>
+												<a href="">分析试剂</a>
+												<a href="">通用无机试剂</a>
+												<a href="">通用有机试剂</a>
+												<a href="">生化试剂</a>
+												<a href="">功能纤维</a>
+												<a href="">维纶纤维</a>
+												<a href="">涤纶纤维</a>
+												<a href="">氨纶纤维</a>
+											</dd>
+										</dl>
+										<dl class="hide-dlsmall hide-dlmr">
+											<dt><a href="">有机颜料</a></dt>
+											<dd>
+												<a href="">偶氮颜料</a>
+												<a href="">色淀</a>
+												<a href="">酞菁颜料</a>
+												<a href="">透明颜料</a>
+												<a href="">荧光颜料</a>
+												<a href="">其他有机颜料</a>
+											</dd>
+										</dl>
+										<dl class="hide-dlsmall">
+											<dt><a href="">农药原药</a></dt>
+											<dd>
+												<a href="">杀鼠剂</a>
+												<a href="">杀虫剂</a>
+												<a href="">除草剂</a>
+												<a href="">杀螨剂</a>
+												<a href="">杀菌剂</a>
+											</dd>
+										</dl>
+									</div>
+								</div>
+
+							</div>
+						</li>
+						<li class="subList06">
+							<a href="">家具家纺/</a>
+							<a href="">家装建材</a>
+							<div class="subNav-hidebox fn-hide">
+								<div class="subNav-hideword">
+									<div class="subhideT">家具家纺/家装建材</div>
+									<div class="subhideB">
+										<dl class="hide-dlsmall hide-dlmr">
+											<dt><a href="">床上用品</a></dt>
+											<dd>
+												<a href="">被子</a>
+												<a href="">蚕丝被</a>
+												<a href="">羽绒被</a>
+												<a href="">枕芯</a>
+												<a href="">保健枕</a>
+												<a href="">床垫</a>
+												<a href="">床品套件</a>
+												<a href="">凉席</a>
+												<a href="">床单</a>
+												<a href="">被套</a>
+												<a href="">枕套</a>
+											</dd>
+										</dl>
+										<dl class="hide-dlsmall">
+											<dt><a href="">布艺、软装</a></dt>
+											<dd>
+												<a href="">台布</a>
+												<a href="">桌布</a>
+												<a href="">窗帘</a>
+												<a href="">靠垫</a>
+												<a href="">地毯</a>
+												<a href="">其他布艺软装</a>
+												<a href="">装饰布</a>
+												<a href="">防尘罩</a>
+												<a href="">挂帘</a>
+											</dd>
+										</dl>
+										<dl class="hide-dlsmall hide-dlmr">
+											<dt><a href="">日化用品</a></dt>
+											<dd>
+												<a href="">液</a>
+												<a href="">粉</a>
+												<a href="">纸巾盒、纸巾抽</a>
+												<a href="">个人卫浴</a>
+												<a href="">清洁用品</a>
+												<a href="">衣物清洁剂</a>
+												<a href="">室内空气净化用品</a>
+											</dd>
+										</dl>
+										<dl class="hide-dlsmall">
+											<dt><a href="">装修设施及施工</a></dt>
+											<dd>
+												<a href="">地坪</a>
+												<a href="">活动房</a>
+												<a href="">亭子</a>
+												<a href="">阳光房</a>
+												<a href="">建筑护栏</a>
+												<a href="">喷泉</a>
+												<a href="">阳台</a>
+												<a href="">其他装修设施及施工</a>
+											</dd>
+										</dl>
+										<dl class="hide-dlsmall hide-dlmr">
+											<dt><a href="">涂料助剂 </a></dt>
+											<dd>
+												<a href="">涂料光亮剂</a>
+												<a href="">除味剂</a>
+												<a href="">固化剂</a>
+												<a href="">催干剂</a>
+												<a href="">消光粉</a>
+												<a href="">防沉剂</a>
+											</dd>
+										</dl>
+										<dl class="hide-dlsmall">
+											<dt><a href="">地板</a></dt>
+											<dd>
+												<a href="">防静电地板</a>
+												<a href="">实木地板</a>
+												<a href="">强化复合地板</a>
+												<a href="">地板料</a>
+												<a href="">实木复合地板</a>
+												<a href="">塑料地板</a>
+												<a href="">橡胶地板</a>
+												<a href="">钢地板</a>
+											</dd>
+										</dl>
+									</div>
+								</div>
+
+							</div>
+						</li>
+						<li class="subList07">
+							<a href="">电工电气/</a>
+							<a href="">安全防护</a>
+							<div class="subNav-hidebox fn-hide">
+								<div class="subNav-hideword">
+									<div class="subhideT">电工电气/安全防护</div>
+									<div class="subhideB">
+										<dl class="hide-dlsmall hide-dlmr">
+											<dt><a href="">电动机 </a></dt>
+											<dd>
+												<a title="机械设备用电动机" href="">机械设备用电动机</a>
+												<a href="">特殊电机</a>
+												<a title="家电用电动机" href="">家电用电动机</a>
+												<a title="电动机配件" href="">电动机配件</a>
+												<a title="电动机保护器" href="">电动机保护器</a>
+												<a href="">微型电动机</a>
+												<a href="">碳刷、电刷</a>
+												<a title="电动工具用电动机" href="">电动工具用电动机</a>
+												<a title="其他电动机" href="">其他电动机</a>
+											</dd>
+										</dl>
+										<dl class="hide-dlsmall">
+											<dt><a href="">电池</a></dt>
+											<dd>
+												<a href="">蓄电池</a>
+												<a href="">锂电池</a>
+												<a href="">纽扣电池</a>
+												<a title="电池配件及材料" href="">电池配件及材料</a>
+												<a href="">干电池</a>
+												<a href="">手机电池</a>
+												<a title="太阳能电池板(组件)" href="">太阳能电池板(组件)</a>
+												<a href="">充电电池</a>
+												<a href="">其他电池</a>
+											</dd>
+										</dl>
+										<dl class="hide-dlsmall hide-dlmr">
+											<dt><a href="">电线、电缆</a></dt>
+											<dd>
+												<a href="">音频线、视频线</a>
+												<a href="">裸电线</a>
+												<a href="">射频电缆</a>
+												<a href="">信号电缆</a>
+												<a href="">线盘</a>
+												<a href="">光纤电缆</a>
+											</dd>
+										</dl>
+										<dl class="hide-dlsmall">
+											<dt><a href="">安全检查设备</a></dt>
+											<dd>
+												<a title="安检探测器" href="">安检探测器</a>
+												<a title="身份证识别仪" href="">身份证识别仪</a>
+												<a href="">安检门</a>
+												<a href="">反偷拍</a>
+												<a title="反窃听器材" href="">反窃听器材</a>
+												<a title="其他安全检查设备" href="">其他安全检查设备</a>
+											</dd>
+										</dl>
+										<dl class="hide-dlsmall hide-dlmr">
+											<dt><a href="">安防监控设备</a></dt>
+											<dd>
+												<a href="">监控摄像机</a>
+												<a href="">智能球</a>
+												<a href="">编码器</a>
+												<a href="">护罩</a>
+												<a href="">球罩</a>
+												<a title="红外线灯" href="">红外线灯</a>
+												<a title="监控器支架" href="">监控器支架</a>
+												<a href="">监控主机 </a>
+												<a title="集成监控系统" href="">集成监控系统</a>
+												<a title="其他监控器材及系统" href="">其他监控器材及系统</a>
+											</dd>
+										</dl>
+										<dl class="hide-dlsmall">
+											<dt><a href="http://search.fanna.com.cn/product/-3017.htm">智能卡</a></dt>
+											<dd>
+												<a href="">IC卡</a>
+												<a href="">磁卡</a>
+												<a href="">射频卡</a>
+												<a href="">条码卡</a>
+												<a title="其他智能卡" href="">其他智能卡</a>
+											</dd>
+										</dl>
+									</div>
+								</div>
+
+							</div>
+						</li>
+						<li class="subList08">
+							<a href="">汽车用品</a>
+							<div class="subNav-hidebox fn-hide">
+								<div class="subNav-hideword">
+									<div class="subhideT">汽车用品</div>
+									<div class="subhideB">
+										<dl>
+											<dt><a href="">车身及附件</a></dt>
+											<dd>
+												<a href="">其他车身及附件</a>
+												<a href="">排气管</a>
+												<a href="">驾驶室及配件</a>
+												<a href="">座椅及附件</a>
+												<a href="">雨刮器</a>
+												<a href="">冲压件、挤压件</a>
+												<a href="">汽车轴承</a>
+												<a href="">保险杠</a>
+												<a href="">玻璃升降器</a>
+											</dd>
+										</dl>
+										<dl>
+											<dt><a href="">汽车内饰用品</a></dt>
+											<dd>
+												<a href="">其他汽车内饰用品</a>
+												<a href="">摆、挂饰物</a>
+												<a href="">地胶、脚垫</a>
+												<a href="">方向盘套</a>
+												<a href="">汽车香水</a>
+											</dd>
+										</dl>
+										<dl>
+											<dt><a href="">商用车</a></dt>
+											<dd>
+												<a href="">货车</a>
+												<a href="">挂车</a>
+												<a title="客车非完整车辆" href="">客车非完整车辆</a>
+												<a href="">牵引车</a>
+												<a href="">客车</a>
+												<a href="">其他商用车</a>
+											</dd>
+										</dl>
+										<dl>
+											<dt><a href="">专用汽车</a></dt>
+											<dd>
+												<a href="">消防车</a>
+												<a href="">高空作业车</a>
+												<a href="">垃圾车</a>
+												<a href="">救险车</a>
+												<a href="">救护车</a>
+												<a href="">保温车</a>
+											</dd>
+										</dl>
+										<dl>
+											<dt><a href="">电源、点火系统</a></dt>
+											<dd>
+												<a href="">点火线圈</a>
+												<a href="">点火器</a>
+												<a href="">电源、点火系统配件</a>
+												<a href="">火花塞</a>
+												<a href="">电子调节器</a>
+												<a href="">汽车蓄电池</a>
+											</dd>
+										</dl>
+									</div>
+								</div>
+
+							</div>
+
+						</li>
+						<li class="subList09"><a href="">玩具</a>
+							<div class="subNav-hidebox fn-hide">
+								<div class="subNav-hideword">
+									<div class="subhideT">玩具</div>
+									<div class="subhideB">
+										<dl class="hide-dlsmall hide-dlmr">
+											<dt><a href="">模型玩具</a></dt>
+											<dd>
+												<a href="">车模型</a>
+												<a href="">其他模型玩具</a>
+												<a href="">航空模型</a>
+											</dd>
+										</dl>
+										<dl class="hide-dlsmall">
+											<dt><a href="">益智玩具</a></dt>
+											<dd>
+												<a href="">过家家玩具</a>
+												<a href="">积木</a>
+												<a href="">婴幼儿教具</a>
+												<a href="">智力魔方</a>
+												<a href="">拼图拼板</a>
+												<a href="">其他益智玩具</a>
+											</dd>
+										</dl>
+										<dl class="hide-dlsmall hide-dlmr">
+											<dt><a href="">其他玩具</a></dt>
+											<dd>
+												<a href="">充气玩具</a>
+												<a href="">游戏机及配件</a>
+												<a href="">游艺设施</a>
+												<a href="">魔术玩具</a>
+												<a href="">动漫、影视主题玩具</a>
+												<a href="">过家家玩具</a>
+												<a href="">宠物玩具</a>
+												<a href="">玩具加工设备</a>
+												<a href="">电子宠物</a>
+												<a href="">填充、毛绒玩具</a>
+												<a href="">风车</a>
+												<a href="">陀螺</a>
+												<a href="">木制玩具</a>
+												<a href="">脚踏滑板车</a>
+												<a href="">玩具珠、球</a>
+												<a href="">玩具配件</a>
+												<a href="">面具</a>
+												<a href="">塑胶玩具</a>
+												<a href="">娃娃</a>
+												<a href="">其他类玩具</a>
+												<a href="">运动休闲类玩具</a>
+												<a href="">整人玩具</a>
+												<a href="">童车、婴儿车</a>
+											</dd>
+										</dl>
+									</div>
+								</div>
+
+							</div>
+						</li>
+						<li class="subList10">
+							<a href="">数码/<a href="">家电</a>/</a>
+							<a href="">工艺用品</a>
+							<div class="subNav-hidebox fn-hide">
+								<div class="subNav-hideword">
+									<div class="subhideT">数码/家电/工艺礼品</div>
+									<div class="subhideB">
+										<dl class="hide-dlsmall hide-dlmr">
+											<dt><a href="">手机通讯</a></dt>
+											<dd>
+												<a href="">手机</a>
+												<a href="">电话卡</a>
+												<a href="">对讲机</a>
+												<a href="">小灵通</a>
+												<a href="">手机挂件</a>
+												<a href="">网络电话机</a>
+												<a href="">其他手机通讯</a>
+											</dd>
+										</dl>
+										<dl class="hide-dlsmall">
+											<dt><a href="">笔记本电脑及配件</a></dt>
+											<dd>
+												<a href="">笔记本电脑</a>
+												<a href="">上网本</a>
+												<a href="">笔记本CPU</a>
+												<a href="">平板电脑</a>
+												<a href="">其他笔记本配件</a>
+												<a href="">笔记本硬盘</a>
+											</dd>
+										</dl>
+										<dl class="hide-dlsmall hide-dlmr">
+											<dt><a href="">厨卫大件</a></dt>
+											<dd>
+												<a href="">热水器</a>
+												<a href="">厨卫配件</a>
+												<a href="">浴霸</a>
+												<a href="">排气、换气扇</a>
+												<a href="">燃气灶具</a>
+												<a href="">消毒柜、洗碗机</a>
+											</dd>
+										</dl>
+										<dl class="hide-dlsmall">
+											<dt><a href="">厨房小家电</a></dt>
+											<dd>
+												<a href="">电磁炉</a>
+												<a href="">电热炉</a>
+												<a href="">电热水壶、电热杯</a>
+												<a href="">电热水瓶</a>
+												<a href="">咖啡机</a>
+												<a href="">果蔬解毒机、净化机</a>
+												<a href="">榨汁机、搅拌机、料理机</a>
+												<a href="">酸奶机</a>
+												<a href="">豆浆机</a>
+												<a href="">电压力锅</a>
+												<a href="">微波炉</a>
+												<a href="">电饭煲、电饭锅</a>
+												<a href="">电热饭盒</a>
+											</dd>
+										</dl>
+										<dl class="hide-dlsmall hide-dlmr">
+											<dt><a href="">工艺品</a></dt>
+											<dd>
+												<a href="">玉器工艺品</a>
+												<a href="">木质工艺品</a>
+												<a href="">宝石工艺品</a>
+												<a href="">景泰蓝(珐琅器)</a>
+												<a href="">布艺工艺品</a>
+												<a href="">竹质工艺品</a>
+												<a href="">骨雕、牙雕工艺品</a>
+												<a href="">植物工艺品</a>
+												<a href="">炭雕工艺品</a>
+											</dd>
+										</dl>
+										<dl class="hide-dlsmall">
+											<dt><a href="">民间工艺品</a></dt>
+											<dd>
+												<a href="">葫芦器</a>
+												<a href="">其他民间工艺品</a>
+												<a href="">皮影</a>
+												<a href="">风筝</a>
+												<a href="">工艺伞</a>
+											</dd>
+										</dl>
+									</div>
+								</div>
+
+							</div>
+						</li>
+						<li class="subList11">
+							<a href="">照明/</a>
+							<a href="">电子</a>
+							<div class="subNav-hidebox fn-hide">
+								<div class="subNav-hideword">
+									<div class="subhideT">照明/电子</div>
+									<div class="subhideB">
+										<dl class="hide-dlsmall hide-dlmr">
+											<dt><a href="">白炽灯</a></dt>
+											<dd>
+												<a href="">卤钨灯泡</a>
+												<a href="">指示灯泡</a>
+												<a href="">红外线灯泡</a>
+												<a href="">彩色灯泡</a>
+												<a title="普通照明白炽灯" href="">普通照明白炽灯</a>
+												<a href="">其他白炽灯</a>
+											</dd>
+										</dl>
+										<dl class="hide-dlsmall">
+											<dt><a href="">车灯</a></dt>
+											<dd>
+												<a href="">转向灯</a>
+												<a href="">角灯</a>
+												<a href="">大灯</a>
+												<a href="">前照灯</a>
+												<a href="">工作灯</a>
+												<a href="">检修灯</a>
+												<a href="">尾灯</a>
+												<a href="">仪表灯</a>
+												<a href="">刹车灯</a>
+											</dd>
+										</dl>
+										<dl class="hide-dlsmall hide-dlmr">
+											<dt><a href="">指示灯具</a></dt>
+											<dd>
+												<a href="">信号灯</a>
+												<a href="">应急指示灯具</a>
+												<a href="">航空障碍灯</a>
+												<a href="">设备指示灯</a>
+												<a href="">交通警示灯</a>
+												<a href="">其他指示灯具</a>
+											</dd>
+										</dl>
+										<dl class="hide-dlsmall">
+											<dt><a href="">开关</a></dt>
+											<dd>
+												<a href="">微动开关</a>
+												<a href="">船型开关</a>
+												<a href="">温控开关</a>
+												<a href="">光电开关</a>
+												<a href="">限位开关</a>
+												<a href="">开关元件</a>
+												<a href="">感应开关</a>
+												<a href="">压力开关</a>
+											</dd>
+										</dl>
+										<dl class="hide-dlsmall hide-dlmr">
+											<dt><a href="">绝缘材料</a></dt>
+											<dd>
+												<a href="">绝缘套管</a>
+												<a href="">绝缘带</a>
+												<a href="">绝缘垫片</a>
+												<a href="">电工胶带</a>
+												<a href="">绝缘板</a>
+												<a href="">其他绝缘材料</a>
+											</dd>
+										</dl>
+										<dl class="hide-dlsmall">
+											<dt><a href="">磁性材料</a></dt>
+											<dd>
+												<a href="">软磁材料</a>
+												<a href="">永磁材料</a>
+												<a href="">其他磁性材料</a>
+											</dd>
+										</dl>
+									</div>
+								</div>
+
+							</div>
+						</li>
+						<li class="subList12"><a href="">冶金矿产</a>
+							<div class="subNav-hidebox fn-hide">
+								<div class="subNav-hideword">
+									<div class="subhideT">冶金矿产</div>
+									<div class="subhideB">
+										<dl class="hide-dlsmall hide-dlmr">
+											<dt><a href="">有色金属</a></dt>
+											<dd>
+												<a href="">钛</a>
+												<a href="">钼</a>
+												<a href="">钽</a>
+												<a href="">铟</a>
+												<a href="">锆</a>
+												<a href="">铌</a>
+												<a href="">钴</a>
+												<a href="">锑</a>
+												<a href="">铍</a>
+											</dd>
+										</dl>
+										<dl class="hide-dlsmall">
+											<dt><a href="">优特钢</a></dt>
+											<dd>
+												<a href="">碳结钢</a>
+												<a href="">合金钢</a>
+												<a href="">工具钢</a>
+												<a href="">合结钢</a>
+												<a href="">切削钢</a>
+												<a href="">耐热钢</a>
+												<a href="">轴承钢</a>
+												<a href="">冷墩钢</a>
+											</dd>
+										</dl>
+										<dl class="hide-dlsmall hide-dlmr">
+											<dt><a href="">金属网</a></dt>
+											<dd>
+												<a href="">金属板网</a>
+												<a href="">钢丝网</a>
+												<a href="">铁丝网</a>
+												<a href="">铜丝网</a>
+												<a href="">铝丝网</a>
+												<a href="">金属网带</a>
+											</dd>
+										</dl>
+										<dl class="hide-dlsmall">
+											<dt><a href="">铁合金</a></dt>
+											<dd>
+												<a href="">铸铁</a>
+												<a href="">硅系</a>
+												<a href="">锰系</a>
+												<a href="">钛铁</a>
+												<a href="">铬系</a>
+												<a href="">磷铁</a>
+											</dd>
+										</dl>
+										<dl class="hide-dlsmall hide-dlmr">
+											<dt><a href="">管材</a></dt>
+											<dd>
+												<a href="">无缝管</a>
+												<a href="">焊管</a>
+												<a href="">螺旋管</a>
+												<a href="">方矩管</a>
+												<a href="">镀锌管</a>
+												<a href="">其他管材</a>
+											</dd>
+										</dl>
+										<dl class="hide-dlsmall">
+											<dt><a href="">金属粉末</a></dt>
+											<dd>
+												<a href="">铜粉系列</a>
+												<a href="">镍粉系列</a>
+												<a href="">钴粉系列</a>
+												<a href="">镁粉系列</a>
+												<a href="">铁粉系列</a>
+												<a href="">铝粉系列</a>
+											</dd>
+										</dl>
+									</div>
+								</div>
+							</div>
+						</li>
+						<li class="subList13">
+							<a href="">机械设备/</a>
+							<a href="">五金/</a>
+							<a href="">仪表</a>
+							<div class="subNav-hidebox fn-hide">
+								<div class="subNav-hideword">
+									<div class="subhideT">机械设备/五金/仪器仪表</div>
+									<div class="subhideB">
+										<dl class="hide-dlsmall hide-dlmr">
+											<dt><a href="">阀门</a></dt>
+											<dd>
+												<a href="">针阀</a>
+												<a href="">排气阀</a>
+												<a href="">阀体</a>
+												<a href="">隔膜阀</a>
+												<a href="">旋塞阀</a>
+												<a href="">阀门配件</a>
+												<a href="">执行器</a>
+												<a href="">气动阀</a>
+												<a href="">放料阀</a>
+											</dd>
+										</dl>
+										<dl class="hide-dlsmall">
+											<dt><a href="">过滤材料</a></dt>
+											<dd>
+												<a href="">滤芯</a>
+												<a href="">滤网</a>
+												<a href="">滤袋</a>
+												<a href="">滤料</a>
+												<a href="">过滤棉</a>
+												<a href="">滤筒</a>
+											</dd>
+										</dl>
+										<dl class="hide-dlsmall hide-dlmr">
+											<dt><a href="">门窗五金</a></dt>
+											<dd>
+												<a href="">滑轨</a>
+												<a href="">窗帘配件</a>
+												<a href="">闭门器</a>
+												<a href="">开门器</a>
+												<a href="">合页、铰链</a>
+												<a href="">拉手</a>
+												<a href="">门窗挂钩</a>
+												<a href="">地弹簧</a>
+											</dd>
+										</dl>
+										<dl class="hide-dlsmall">
+											<dt><a href="">水暖五金</a></dt>
+											<dd>
+												<a href="">水龙头</a>
+												<a href="">暖气片</a>
+												<a href="">散热器</a>
+												<a href="">花洒及配件</a>
+												<a href="">花洒软管</a>
+												<a href="">地漏</a>
+												<a href="">下水</a>
+												<a href="">三角阀</a>
+												<a href="">水嘴</a>
+											</dd>
+										</dl>
+										<dl class="hide-dlsmall hide-dlmr">
+											<dt><a href="">压力仪表</a></dt>
+											<dd>
+												<a href="">压力表</a>
+												<a href="">压力校验仪表</a>
+												<a href="">压力控制器</a>
+												<a href="">压力变送器</a>
+												<a href="">压力开关</a>
+												<a href="">差压表</a>
+												<a href="">压力计</a>
+												<a href="">减压器</a>
+											</dd>
+										</dl>
+										<dl class="hide-dlsmall">
+											<dt><a href="">变送器</a></dt>
+											<dd>
+												<a href="">压力变送器</a>
+												<a href="">液位变送器</a>
+												<a href="">差压变送器</a>
+												<a href="">温度变送器</a>
+												<a href="">电量变送器</a>
+												<a href="">电容式变送器</a>
+												<a href="">流量变送器</a>
+											</dd>
+										</dl>
+									</div>
+								</div>
+							</div>
+						</li>
+					</ul>
+				</div>
+				<!-- 主广告图片 -->
+				<div class="fanSliderimg">
+					<div class="sliderimgBox-Big">
+						<a href="javascript:;" class="prevBig prev"></a>
+						<a href="javascript:;" class="nextBig next"></a>
+						<div class="sliderimgBig">
+							<ul class="sliderimgBig-list">
+								<li><a href=""><img src="picture/hjzw.jpg" alt="" width="750"></a></li>
+								<li><a href=""><img src="picture/zntg.jpg" alt="" width="750"></a></li>
+								<li><a href=""><img src="picture/sspm.jpg" alt="" width="750"></a></li>
+								<li><a href=""><img src="picture/nana.jpg" alt="" width="750"></a></li>
+							</ul>
+						</div>
+						<ul class="sliderBtn">
+							<li class="btn-active"></li>
+							<li></li>
+							<li></li>
+							<li></li>
+						</ul>
+					</div>
+					<div class="sliderimgBox-Small">
+						<a href="javascript:;" class="prevSmall prev"></a>
+						<a href="javascript:;" class="nextSmall next"></a>
+						<div class="sliderimgSmall">
+							<ul class="sliderimgSmall-list">
+								<li><a href=""><img src="picture/01.jpg" alt="" width="150" height="180"></a></li>
+								<li><a href=""><img src="picture/02.jpg" alt="" width="150" height="180"></a></li>
+								<li><a href=""><img src="picture/03.jpg" alt="" width="150" height="180"></a></li>
+								<li><a href=""><img src="picture/04.jpg" alt="" width="150" height="180"></a></li>
+								<li><a href=""><img src="picture/05.jpg" alt="" width="150" height="180"></a></li>
+								<li><a href=""><img src="picture/06.jpg" alt="" width="150" height="180"></a></li>
+								<li><a href=""><img src="picture/07.jpg" alt="" width="150" height="180"></a></li>
+								<li><a href=""><img src="picture/08.jpg" alt="" width="150" height="180"></a></li>
+								<li><a href=""><img src="picture/09.jpg" alt="" width="150" height="180"></a></li>
+								<li><a href=""><img src="picture/10.jpg" alt="" width="150" height="180"></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+
+				<div class="fanNew">
+					<div class="fanNew-notice">
+						<ul class="notice-box">
+							<li class="noticeList"><a href="javascript:;" class="noticeTitle noticeActive">成为会员</a></li>
+							<li class="noticeList"><a href="javascript:;" class="noticeTitle">我是买家</a></li>
+							<li class="noticeList li-nrb"><a href="javascript:;" class="noticeTitle">我是卖家</a></li>
+						</ul>
+						<div class="xn_msgTab">
+							<div class="noticeList-sub">
+								<ol>
+									<li><span>【规则】</span><a href="">注册</a><em></em></li>
+									<li><span>【规则】</span><a href="">登录</a><em></em></li>
+								</ol>
+							</div>
+							<div class="noticeList-sub fn-hide">
+								<ol>
+									<li><span>【规则】</span><a href="">找产品&卖家</a><em></em></li>
+									<li><span>【规则】</span><a href="">发布&管理询价单</a><em></em></li>
+								</ol>
+							</div>
+							<div class="noticeList-sub fn-hide">
+								<ol>
+									<li><span>【规则】</span><a href="">发布&管理产品</a><em></em></li>
+									<li><span>【规则】</span><a href="">发布&管理公司介绍</a><em></em></li>
+								</ol>
+							</div>
+						</div>
+					</div>
+					<div class="fanNew-loginBox">
+						<div class="fanNew-login">
+							<a href="" class="a-login"><em class="em-login"></em><span>登录</span></a>
+							<a href=""><em class="em-register"></em><span>注册</span></a>
+						</div>
+						<ul class="fanNew-welcome">
+							<li class="welcome-img"><img src="picture/newnana.png" alt="" width="60" height="60"></li>
+							<li class="welcome-word">
+								<a href="">Hi,<em class="xn_nowTime"></em>好！</a>
+								<span>欢迎来到买买网！</span>
+							</li>
+						</ul>
+					</div>
+					<div class="fanNew-shopping">
+						<div class="fanNew-shopList xn-showBox">
+							<!-- 新发布产品 -->
+							<ul class="xn-shopList xn-ctBox">
+								<li class="fn-clear">
+									<a href="">81156M，推力圆柱滚子轴承，原装进口轴承品，洛阳华纳</a>
+									<span><em class="em-price">￥50.0</em><em class="em-xie">/</em><em class="em-dw">套</em></span>
+								</li>
+								<li class="fn-clear">
+									<a href="">意大利艾科无线遥控器MITO-MINI</a>
+									<span><em class="em-price">￥20000.0</em><em class="em-xie">/</em><em class="em-dw">套</em></span>
+								</li>
+								<li class="fn-clear">
+									<a href=""> LQ阀门电动装置</a>
+									<span><em class="em-price">￥10000.0</em><em class="em-xie">/</em><em class="em-dw">台</em></span>
+								</li>
+								<li class="fn-clear">
+									<a href="">合肥金蝶财务软件</a>
+									<span><em class="em-price">￥2000.0</em><em class="em-xie">/</em><em class="em-dw">套</em></span>
+								</li>
+								<li class="fn-clear">
+									<a href=""> 廊坊农用碳酸氢铵零售也是批发价</a>
+									<span><em class="em-price">￥700.0</em><em class="em-xie">/</em><em class="em-dw">吨</em></span>
+								</li>
+								<li class="fn-clear">
+									<a href="">供应真空吸尘管 波纹螺旋管 抛丸机专用耐磨管</a>
+									<span><em class="em-price">￥36.0</em><em class="em-xie">/</em><em class="em-dw">米</em></span>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<ul class="fanNew-iconbox">
+						<li>
+							<a href="" class="a-iconimg"><em class="em-myfp"></em></a>
+							<a href="" class="a-iconword">贸易防骗</a>
+						</li>
+						<li>
+							<a href="" class="a-iconimg"><em class="em-sjrz"></em></a>
+							<a href="" class="a-iconword">商家认证</a>
+						</li>
+						<li class="li-nrb">
+							<a href="" class="a-iconimg"><em class="em-nn"></em></a>
+							<a href="" class="a-iconword">呐呐</a>
+						</li>
+						<li>
+							<a href="" class="a-iconimg"><em class="em-sct"></em></a>
+							<a href="" class="a-iconword">生财通</a>
+						</li>
+						<li>
+							<a href="javascript:;" class="a-iconimg"><em class="em-sjfn"></em></a>
+							<a href="javascript:;" class="a-iconword">手机凡纳</a>
+						</li>
+						<li class="li-nrb">
+							<a href="javascript:;" class="a-iconimg"><em class="em-mjbz"></em></a>
+							<a href="javascript:;" class="a-iconword">买家保障</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<!-- 凡纳推荐 -->
+			<div class="fanFloor  f-special">
+				<div class="floorTitle">
+					<h2 class="fn-clear">凡纳特色购</h2>
+				</div>
+				<div class="floorImgbox">
+					<ul class="floorImgbox-list floorH200">
+						<li class="floorW230 floorH200"><a href=""><img src="picture/01_1.jpg" width="240" height="200"></a></li>
+						<li class="floorW480 floorH200"><a href=""><img src="picture/02_1.jpg" width="480" height="200"></a></li>
+						<li class="floorW240 floorH200"><a href=""><img src="picture/03_1.jpg" width="240" height="200"></a></li>
+						<li class="floorW240 floorH200"><a href=""><img src="picture/04_1.jpg" width="240" height="200"></a></li>
+					</ul>
+					<ul class="floorImgbox-list floorH200">
+						<li class="floorW230 floorH200"><a href=""><img src="picture/05_1.jpg" height="200"></a></li>
+						<li class="floorW480 floorH200">
+							<div class="floorFloat floorW240 floorH200"><a href=""><img src="picture/06_1.jpg" width="240" height="200"></a></div>
+							<div class="floorFloat floorW240 floorH200"><a href=""><img src="picture/07_1.jpg" width="240" height="200"></a></div>
+						</li>
+						<li class="floorW240 floorH200"><a href=""><img src="picture/08_1.jpg" width="240" height="200"></a></li>
+						<li class="floorW240 floorH200"><a href=""><img src="picture/09_1.jpg" width="240" height="200"></a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container">
+		<div class="main">
+			<div class="fanFloor">
+				<!-- 服装服饰 -->
+				<div class="floorTrade bgff floorMb">
+					<div class="floorTradebox">
+						<div class="tradeBox-img floorW230 floorH370">
+							<a href=""><img src="picture/fzfs.jpg" width="230" height="370"></a>
+						</div>
+						<div class="tradeBox-level">
+							<dl class="tradeBox-levelT">
+								<dt class="floorFloat">服装服饰</dt>
+								<dd class="floorFloat"><a href="#"></a></dd>
+								<dd class="floorFloat-R"><a href="#" class="textR"></a></dd>
+							</dl>
+							<div class="tradeBox-levelN">
+								<div class="floorFloat tradeLevelN-word">
+									<ul>
+										<li>
+											<a href="" class="alevel-bt">女装</a>
+											<a title="连衣裙" href="">连衣裙</a>
+											<a title="半身裙" href="">半身裙</a>
+											<a title="女牛仔裤" href="">女牛仔裤</a>
+											<a title="女休闲裤" href="">女休闲裤</a>
+											<a title="女衬衫" href="">女衬衫</a>
+											<a title="女衬衫" href="">女衬衫</a>
+											<a title="女衬衫" href="">女衬衫</a>
+											<a title="女式T恤" href="">女式T恤</a>
+											<a title="女式毛衣" href="">女式毛衣</a>
+										</li>
+									</ul>
+									<ul>
+										<li>
+											<a href="" class="alevel-bt">男装</a>
+											<a title="男式T恤" href="">男式T恤</a>
+											<a title="男式衬衫" href="">男式衬衫</a>
+										</li>
+										<li>
+											<a href="" class="alevel-bt">内衣</a>
+											<a href="">文胸</a>
+											<a href="">内裤</a>
+										</li>
+										<li>
+											<a href="" class="alevel-bt">童装</a>
+											<a href="">童T恤</a>
+											<a href="">童卫衣</a>
+										</li>
+									</ul>
+									<ul>
+										<li>
+											<a href="" class="alevel-bt">鞋靴</a>
+											<a href="">单鞋</a>
+											<a href="">工作鞋</a>
+										</li>
+									</ul>
+								</div>
+								<div class="floorFloat-R tradeLevelN-img">
+								<span>
+									<a title="小西装" href="" class="LevelNimg-wz">小西装</a>
+									<a title="孕妇装" href="" class="LevelNimg-wz">孕妇装</a>
+									<a title="职业女装" href="" class="LevelNimg-wz">职业女装</a>
+								</span>
+								<span>
+									<a title="男士棉衣" href="" class="LevelNimg-wz">男士棉衣</a>
+									<a title="女士棉衣" href="" class="LevelNimg-wz">女士棉衣</a>
+									<a title="童衬衫" href="" class="LevelNimg-wz">童衬衫</a>
+								</span>
+								<span>
+									<a title="棉鞋" href="" class="LevelNimg-wz">棉鞋</a>
+									<a title="板鞋" href="" class="LevelNimg-wz">板鞋</a>
+								</span>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="floorSlider-ad">
+						<div class="sliderAdbox sliderAdbox-big">
+							<div class="sliderAdbox-title">
+								<h2>优品推荐</h2>
+								<span><em class="ad-number xn-index1">1</em>/<em class="xn-sureNum1">5</em></span>
+							</div>
+							<div class="sliderAdbox-nr xn-recommendBox1">
+								<div class="slideradNr-img">
+									<dl>
+										<dt class="adNr-img"><a href="" target="_blank">
+											<img src="picture/201603181458283679353_100.png" alt="">
+										</a></dt>
+										<dd class="adNr-word"><a href="">&nbsp;生浪费服饰供应春秋季小学校服运动服定做厂家直销</a></dd>
+										<dd class="adNr-price">￥70.0</dd>
+									</dl>
+									<dl class="floorMl">
+										<dt class="adNr-img"><a href="" target="_blank">
+											<img src="picture/201603151458032254526_100.jpg" alt="">
+										</a></dt>
+										<dd class="adNr-word"><a href="">圣浪夏季校服订做、衬衫加短裤或裙裤</a></dd>
+										<dd class="adNr-price">￥60.0</dd>
+									</dl>
+								</div>
+								<div class="slideradNr-word xn-showBox">
+									<ul class="xn-shopList xn-ctBox">
+										<li><a href="">魔术贴裁剪机信息｜魔术贴剪切机价格｜魔术贴剪断机报价</a><span>面议</span></li>
+										<li class="li-mt"><a href="">供应卡通服装 卡通人偶 动漫服装 聪明兔</a><span>面议</span></li>
+										<li><a href="">&nbsp;艾斯顿防静电衣服/防静电净化服/防静电连帽连体服分体服</a><span>￥50.0/套</span></li>
+										<li class="li-mt"><a href="">&nbsp;厂家免费设计印图印logo短袖T恤定制潮流圆领全身印班服</a><span>￥39.0/件</span></li>
+										<li><a href="">&nbsp;专业生产定制服装吊牌</a><span>￥0.001/个</span></li>
+										<li class="li-mt"><a href=""> 女装打版人台/女装试衣公仔</a><span>￥2200.0/个</span></li>
+										<li><a href="">&nbsp;广州白云区工作服定做，白云区工作服定制批发供应商、质优价廉</a><span>￥52.0/件</span></li>
+										<li class="li-mt"><a href="">昆明广告衫，工作股，T恤衫，广告服专业定做公司，款式最新</a><span>￥8.0/件</span></li>
+										<li><a href="">&nbsp;供应触摸手套电感手套</a><span>￥52.0/双</span></li>
+										<li class="li-mt"><a href="">&nbsp;彩色印唛定做&nbsp;纯棉印唛&nbsp;logo免费设计&nbsp;包邮&nbsp;&nbsp;专业棉带</a><span>￥8.0/个</span></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="sliderAdbox sliderAdbox-small">
+							<div class="sliderAdbox-title">
+								<h2>实力供应商</h2>
+								<span class="floorMt"><em class="ad-sk ad-skf60"></em><em class="ad-sk"></em></span>
+							</div>
+							<div class="sliderAdbox-nr">
+								<div class="xn_tab fn-clear">
+									<ul class="slideradNr-company fn-left">
+										<li class="adNrcompany-list">
+											<p class="companyName"><i class="comActive">1</i><a href="">成都圣浪服饰有限公司</a></p>
+											<div class="companyXq">
+												<ol>
+													<li class="company-zy"><span>主营：</span>校服,工作服,西装,T恤</li>
+													<li class="company-ms"><span>经营模式：</span>生产产家</li>
+													<li class="company-cp"><span>产品：</span>23个</li>
+													<li class="company-tu">
+														<a href="" class="tu-ml">
+															<img src="picture/201603191458355532062_64.jpg" alt=""/></a>
+														<a href="" >
+															<img src="picture/201603181458283679353_64.png" alt=""/></a>
+													</li>
+												</ol>
+											</div>
+										</li>
+										<li class="adNrcompany-list">
+											<p class="companyName"><i>2</i><a href="">东莞市凯进服装辅料厂</a></p>
+											<div class="companyXq fn-hide">
+												<ol>
+													<li class="company-zy"><span>主营：</span>织唛,吊牌,布标,印唛</li>
+													<li class="company-ms"><span>经营模式：</span>生产产家</li>
+													<li class="company-cp"><span>产品：</span>97个</li>
+													<li class="company-tu">
+														<a href="" class="tu-ml">
+															<img src="picture/201605211463821483131_64.jpg" alt=""/></a>
+														<a href="">
+															<img src="picture/201605211463821356934_64.jpg" alt=""/></a>
+
+													</li>
+												</ol>
+											</div>
+										</li>
+										<li class="adNrcompany-list">
+											<p class="companyName"><i>3</i><a href="">北京宇航恒瑞商贸有限公司</a></p>
+											<div class="companyXq fn-hide">
+												<ol>
+													<li class="company-zy"><span>主营：</span>工作服,劳保服,劳保用品</li>
+													<li class="company-ms"><span>经营模式：</span>生产产家</li>
+													<li class="company-cp"><span>产品：</span>3个></li>
+													<li class="company-tu">
+														<a href="" class="tu-ml">
+															<img src="picture/201604081460104975426_64.jpg" alt=""/></a>
+														<a href="">
+															<img src="picture/201604081460104817953_64.jpg" alt=""/></a>
+													</li>
+												</ol>
+											</div>
+										</li>
+										<li class="adNrcompany-list">
+											<p class="companyName"><i>4</i><a href="">海南合众盛丰服饰有限责任公司</a></p>
+											<div class="companyXq fn-hide">
+												<ol>
+													<li class="company-zy"><span>主营：</span>T恤,文化衫,卫衣,工装</li>
+													<li class="company-ms"><span>经营模式：</span>生产产家</li>
+													<li class="company-cp"><span>产品：</span>5个</li>
+													<li class="company-tu">
+
+														<a href="" class="tu-ml">
+															<img src="picture/201603261458959393639_64.jpg" alt=""/></a>
+														<a href="" >
+															<img src="picture/201603281459137978102_64.jpg" alt=""/></a>
+													</li>
+												</ol>
+											</div>
+										</li>
+										<li class="adNrcompany-list">
+											<p class="companyName"><i>5</i><a href="">成都圣浪服饰有限公司</a></p>
+											<div class="companyXq fn-hide">
+												<ol>
+													<li class="company-zy"><span>主营：</span>校服,西服,工作服,T恤文化衫</li>
+													<li class="company-ms"><span>经营模式：</span>生产产家</li>
+													<li class="company-cp"><span>产品：</span>13个</li>
+													<li class="company-tu">
+														<a href="" class="tu-ml">
+															<img src="picture/201603161458091315548_64.jpg" alt=""/></a>
+														<a href="">
+															<img src="picture/201603161458094661611_64.jpg" alt=""/></a>
+													</li>
+												</ol>
+											</div>
+										</li>
+									</ul>
+									<ul class="slideradNr-company fn-left">
+										<li class="adNrcompany-list">
+											<p class="companyName"><i class="comActive">1</i><a href="">哈尔滨市阿城区优衣雅制衣厂</a></p>
+											<div class="companyXq">
+												<ol>
+													<li class="company-zy"><span>主营：</span>工作服,职业装,西服,制服</li>
+													<li class="company-ms"><span>经营模式：</span>生产产家</li>
+													<li class="company-cp"><span>产品：</span>7个</li>
+													<li class="company-tu">
+														<a href="" class="tu-ml">
+															<img src="picture/201605201463720663943_64.jpg" alt="" /></a>
+														<a href="">
+															<img src="picture/201605201463720663943_64.jpg" alt=""/></a>
+													</li>
+												</ol>
+											</div>
+										</li>
+										<li class="adNrcompany-list">
+											<p class="companyName"><i>2</i><a href="">天津市天杼制衣有限公司</a></p>
+											<div class="companyXq fn-hide">
+												<ol>
+													<li class="company-zy"><span>主营：</span>工作服,制服,西装</li>
+													<li class="company-ms"><span>经营模式：</span>生产产家</li>
+													<li class="company-cp"><span>产品：</span>3个</li>
+													<li class="company-tu">
+														<a href="" class="tu-ml">
+															<img src="picture/201602291456733621150_64.jpg" alt=""/></a>
+														<a href="" >
+															<img src="picture/201602291456733427370_64.jpg" alt=""/></a>
+													</li>
+												</ol>
+											</div>
+										</li>
+										<li class="adNrcompany-list">
+											<p class="companyName"><i>3</i><a href="">广州珐瑟米皮具有限公司</a></p>
+											<div class="companyXq fn-hide">
+												<ol>
+													<li class="company-zy"><span>主营：</span>真皮女包批发,品牌女包批发,仿牌女包批发</li>
+													<li class="company-ms"><span>经营模式：</span>经销批发</li>
+													<li class="company-cp"><span>产品：</span>11个</li>
+													<li class="company-tu">
+														<a href="" class="tu-ml">
+															<img src="picture/201602221456149742736_64.jpg" alt=""/></a>
+														<a href="" >
+															<img src="picture/201602221456149742081_64.jpg" alt=""/></a>
+													</li>
+												</ol>
+											</div>
+										</li>
+										<li class="adNrcompany-list">
+											<p class="companyName"><i>4</i><a href="">北京酷绅服装有限公司</a></p>
+											<div class="companyXq fn-hide">
+												<ol>
+													<li class="company-zy"><span>主营：</span>定制西服,定制衬衫,定制休闲裤,定制大衣</li>
+													<li class="company-ms"><span>经营模式：</span>商业服务</li>
+													<li class="company-cp"><span>产品：</span>40个</li>
+													<li class="company-tu">
+														<a href="" class="tu-ml">
+															<img src="picture/201604301461999668545_64.jpg" alt="" /></a>
+														<a href="" >
+															<img src="picture/201604301461999485034_64.jpg" alt=""/></a>
+													</li>
+												</ol>
+											</div>
+										</li>
+										<li class="adNrcompany-list">
+											<p class="companyName"><i>5</i><a href="">江西健道服饰有限公司</a></p>
+											<div class="companyXq fn-hide">
+												<ol>
+													<li class="company-zy"><span>主营：</span>太极服,武术服,表演服</li>
+													<li class="company-ms"><span>经营模式：</span>生产产家</li>
+													<li class="company-cp"><span>产品：</span>5个></li>
+													<li class="company-tu">
+														<a href="" class="tu-ml">
+															<img src="picture/201512231450850603577_64.jpg" alt=""/></a>
+														<a href="" >
+															<img src="picture/201512231450849479255_64.jpg" alt=""/></a>
+													</li>
+												</ol>
+											</div>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- 家居百货 -->
+				<div class="floorTrade bgff floorMb">
+					<div class="floorTradebox">
+						<div class="tradeBox-img floorW230 floorH370">
+							<a href=""><img src="picture/jjbh.jpg" width="230" height="370"></a>
+						</div>
+						<div class="tradeBox-level">
+							<dl class="tradeBox-levelT">
+								<dt class="floorFloat">家具百货</dt>
+								<dd class="floorFloat"><a href="#"></a></dd>
+								<dd class="floorFloat-R"><a href="#" class="textR"></a></dd>
+							</dl>
+							<div class="tradeBox-levelN">
+								<div class="floorFloat tradeLevelN-word">
+									<ul>
+										<li>
+											<a href="" class="alevel-bt">家居百货</a>
+											<a href="">蚕丝被</a>
+											<a href="">床品套件</a>
+											<a href="">枕芯</a>
+											<a href="">保健枕</a>
+											<a href="">床垫</a>
+											<a href="">床单</a>
+											<a href="">地毯</a>
+											<a href="">窗帘</a>
+
+										</li>
+									</ul>
+									<ul>
+										<li>
+											<a href="" class="alevel-bt">家用电器</a>
+											<a href="">电磁炉</a>
+											<a href="">电热炉</a>
+											<a href="">电热水瓶</a>
+											<a href="">电热饭盒</a>
+											<a href="">面包机</a>
+											<a href="">热水器</a>
+											<a href="">厨卫配件</a>
+											<a href="">浴霸</a>
+											<a href="">音响产品</a>
+
+										</li>
+									</ul>
+									<ul>
+										<li>
+											<a href="" class="alevel-bt">食品饮料</a>
+											<a href="">茶叶</a>
+											<a href="">休闲食品</a>
+										</li>
+									</ul>
+								</div>
+								<div class="floorFloat-R tradeLevelN-img">
+									<span><a href="" class="LevelNimg-wz">挂帘</a><a href="" class="LevelNimg-wz">个人卫浴</a></span>
+									<span><br><br></span>
+									<span><a href="" class="LevelNimg-wz">家庭影院</a><a href="" class="LevelNimg-wz">影音电器</a></span>
+									<span><a href="" class="LevelNimg-wz">茶饮料</a><a href="" class="LevelNimg-wz">饼干糕点</a></span>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="floorSlider-ad">
+						<div class="sliderAdbox sliderAdbox-big">
+							<div class="sliderAdbox-title">
+								<h2>优品推荐</h2>
+								<span><em class="ad-number xn-index2">1</em>/<em class="xn-sureNum2">5</em></span>
+							</div>
+							<div class="sliderAdbox-nr xn-recommendBox2">
+								<div class="slideradNr-img">
+									<dl>
+										<dt class="adNr-img">
+											<a href=""><img src="picture/201511021446437707356_100.jpg"></a>
+										</dt>
+										<dd class="adNr-word"><a href=""> 滋补品|公主枣|太子枣|红枣|西域牌公主.太子枣|</a></dd>
+										<dd class="adNr-price">￥18.0</dd>
+									</dl>
+									<dl class="floorMl">
+										<dt class="adNr-img">
+											<a href=""><img src="picture/201511021446437038659_100.jpg"></a>
+										</dt>
+										<dd class="adNr-word"><a href=""> 推荐|碱法|碱法饮料|优道 碱法荔枝味苏打水500ml</a></dd>
+										<dd class="adNr-price">￥48.0</dd>
+									</dl>
+								</div>
+								<div class="slideradNr-word xn-showBox">
+									<ul class="xn-shopList xn-ctBox">
+										<li>
+											<a href="">指甲锉厂家批发美甲工具，EVA指甲锉，磨甲条</a>
+											<span>￥0.96/个</span>
+										</li>
+										<li class="li-mt">
+											<a href="">常州川岛厂家供应家用除湿机DH-826C适用20-45平米</a>
+											<span>￥1150.0/台</span>
+										</li>
+										<li>
+											<a href="">&nbsp;供应拓客神器养生缸&nbsp;厂家直销汗蒸负离子瓮</a>
+											<span>￥1.0/套</span>
+										</li>
+										<li class="li-mt">
+											<a href="">中创健宜生态仪 重庆分公司</a>
+											<span>￥5980.0/台</span>
+										</li>
+										<li>
+											<a href="">时尚 海绵锉指甲锉条</a>
+											<span>￥0.95/件</span>
+										</li>
+										<li class="li-mt">
+											<a href="">水果酵素酒oem贴牌加工天猫电商专供</a>
+											<span>￥30.0/瓶</span>
+										</li>
+										<li>
+											<a href=""> 复古原木风扇直流风扇超静音风扇无级调速风扇能耗低新品</a>
+											<span>￥498.0/台</span>
+										</li>
+										<li class="li-mt">
+											<a href="">供应兰宝热水器商用热水器容积式热水器200升9kw电热水器</a>
+											<span>￥7300.0/台</span>
+										</li>
+										<li>
+											<a href="">清远市佛冈超市鲜肉保鲜展示柜</a>
+											<span>￥498.0/台</span>
+										</li>
+										<li class="li-mt">
+											<a href="">云南/昆明/昭通洪森小型书籍消毒柜&nbsp;消毒灭菌无死角</a>
+											<span>￥7300.0/台</span>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="sliderAdbox sliderAdbox-small">
+							<div class="sliderAdbox-title">
+								<h2>实力供应商</h2>
+								<span class="floorMt"><em class="ad-sk ad-skf60"></em><em class="ad-sk"></em></span>
+							</div>
+							<div class="sliderAdbox-nr">
+								<div class="xn_tab fn-clear">
+									<ul class="slideradNr-company fn-left">
+										<li class="adNrcompany-list">
+											<p class="companyName"><i class="comActive">1</i><a href="">甘肃泽园润欣商贸有限公司</a></p>
+											<div class="companyXq">
+												<ol>
+													<li class="company-zy"><span>主营：</span>乳制品,饮料,红枣系列,调制品</li>
+													<li class="company-ms"><span>经营模式：</span>经销批发</li>
+													<li class="company-cp"><span>产品：</span>43个</li>
+													<li class="company-tu">
+														<a href="" class="tu-ml">
+															<img src="picture/201511091447041200391_64.jpg" alt=""/></a>
+														<a href="">
+															<img src="picture/201511041446601208562_64.jpg" alt=""/></a>
+													</li>
+												</ol>
+											</div>
+										</li>
+										<li class="adNrcompany-list">
+											<p class="companyName"><i>2</i><a href="">甘肃恒生源商贸有限公司</a></p>
+											<div class="companyXq fn-hide">
+												<ol>
+													<li class="company-zy"><span>主营：</span>白酒,饮料,日化地方特产,茶叶干果</li>
+													<li class="company-ms"><span>经营模式：</span>经销批发</li>
+													<li class="company-cp"><span>产品：</span>17个</li>
+													<li class="company-tu">
+														<a href="" class="tu-ml">
+															<img src="picture/201603051457187605549_64.jpg" alt=""/></a>
+														<a href="">
+															<img src="picture/201511021446463911380_64.jpg" alt=""/></a>
+													</li>
+												</ol>
+											</div>
+										</li>
+										<li class="adNrcompany-list">
+											<p class="companyName"><i>3</i><a href="">保定市东升卫生用品有限公司</a></p>
+											<div class="companyXq fn-hide">
+												<ol>
+													<li class="company-zy"><span>主营：</span>卫生纸,大轴纸,纸尿裤,纸尿垫</li>
+													<li class="company-ms"><span>经营模式：</span>生产产家</li>
+													<li class="company-cp"><span>产品：</span>12个</li>
+													<li class="company-tu">
+														<a href="" class="tu-ml">
+															<img src="" alt=""/></a>
+														<a href="">
+															<img src="picture/201605131463102258917_64.png" alt=""/></a>
+													</li>
+												</ol>
+											</div>
+										</li>
+										<li class="adNrcompany-list">
+											<p class="companyName"><i>4</i><a href="">淮安康康有害生物防治科技有限公司</a></p>
+											<div class="companyXq fn-hide">
+												<ol>
+													<li class="company-zy"><span>主营：</span>陶瓷毒饵盒,粘鼠板防尘罩,塑料毒饵盒,毒饵站</li>
+													<li class="company-ms"><span>经营模式：</span>生产产家</li>
+													<li class="company-cp"><span>产品：</span>4个</li>
+													<li class="company-tu">
+														<a href="" class="tu-ml">
+															<img src="picture/201605051462439611205_64.jpg" alt=""/></a>
+														<a href="">
+															<img src="picture/201605051462440059155_64.jpg" alt=""/></a>
+													</li>
+												</ol>
+											</div>
+										</li>
+										<li class="adNrcompany-list">
+											<p class="companyName"><i>5</i><a href="">郑州同兴空调技术有限公司</a></p>
+											<div class="companyXq fn-hide">
+												<ol>
+													<li class="company-zy"><span>主营：</span>美的中央空调,格力中央空调</li>
+													<li class="company-ms"><span>经营模式：</span>经销批发</li>
+													<li class="company-cp"><span>产品：</span>21个</li>
+													<li class="company-tu">
+														<a href="" class="tu-ml">
+															<img src="picture/201605181463555114739_64.jpg" alt=""/></a>
+														<a href="">
+															<img src="picture/201605181463555114189_64.jpg" alt=""/></a>
+													</li>
+												</ol>
+											</div>
+										</li>
+									</ul>
+									<ul class="slideradNr-company fn-left">
+										<li class="adNrcompany-list">
+											<p class="companyName"><i class="comActive">1</i><a href="">会宁县荣辰电子商务有限公司</a></p>
+											<div class="companyXq">
+												<ol>
+													<li class="company-zy"><span>主营：</span>粮油，糕点，面包,果品，蔬菜，酒,饮料，茶叶，,其他食品</li>
+													<li class="company-ms"><span>经营模式：</span>经销批发</li>
+													<li class="company-cp"><span>产品：</span>8个</li>
+													<li class="company-tu">
+														<a href="" class="tu-ml">
+															<img src="picture/201605021462178202541_64.jpg" alt=""/></a>
+														<a href="">
+															<img src="picture/201605021462178794128_64.jpg" alt=""/></a>
+													</li>
+												</ol>
+											</div>
+										</li>
+										<li class="adNrcompany-list">
+											<p class="companyName"><i>2</i><a href="">保定全乐动物饲料制造有限公司</a></p>
+											<div class="companyXq fn-hide">
+												<ol>
+													<li class="company-zy"><span>主营：</span>狗粮猫粮,宠物食品,全乐宠物饲料</li>
+													<li class="company-ms"><span>经营模式：</span>生产产家</li>
+													<li class="company-cp"><span>产品：</span>5个</li>
+													<li class="company-tu">
+														<a href="" class="tu-ml">
+															<img src="picture/201604271461718241195_64.jpg" alt=""/></a>
+														<a href="" >
+															<img src="picture/201604271461718528090_64.jpg" alt=""/></a>
+													</li>
+												</ol>
+											</div>
+										</li>
+										<li class="adNrcompany-list">
+											<p class="companyName"><i>3</i><a href="">深圳市欧奈尔表业有限公司</a></p>
+											<div class="companyXq fn-hide">
+												<ol>
+													<li class="company-zy"><span>主营：</span>手表,木表,陶瓷表,机械表</li>
+													<li class="company-ms"><span>经营模式：</span>生产产家</li>
+													<li class="company-cp"><span>产品：</span>11个</li>
+													<li class="company-tu">
+														<a href="" class="tu-ml">
+															<img src="picture/201604291461896431152_64.jpg" alt=""/></a>
+														<a href="" >
+															<img src="picture/201604291461896047309_64.jpg" alt=""/></a>
+													</li>
+												</ol>
+											</div>
+										</li>
+										<li class="adNrcompany-list">
+											<p class="companyName"><i>4</i><a href="">永康市喜派工贸有限公司</a></p>
+											<div class="companyXq fn-hide">
+												<ol>
+													<li class="company-zy"><span>主营：</span>保温杯系列,运动壶系列,咖啡及旅游壶,办公杯系列</li>
+													<li class="company-ms"><span>经营模式：</span>生产产家</li>
+													<li class="company-cp"><span>产品：</span>9个</li>
+													<li class="company-tu">
+														<a href="" class="tu-ml">
+															<img src="picture/201605111462955994301_64.jpg" alt=""/></a>
+														<a href="" >
+															<img src="picture/201605071462591926523_64.jpg" alt=""/></a>
+													</li>
+												</ol>
+											</div>
+										</li>
+										<li class="adNrcompany-list">
+											<p class="companyName"><i>5</i><a href="">深圳市启思电子科技有限公司</a></p>
+											<div class="companyXq fn-hide">
+												<ol>
+													<li class="company-zy"><span>主营：</span>香薰加湿器,创意LED灯具,夏季迷你小风扇USB,创意杯子</li>
+													<li class="company-ms"><span>经营模式：</span>生产产家</li>
+													<li class="company-cp"><span>产品：</span>3个</li>
+													<li class="company-tu">
+														<a href="" class="tu-ml">
+															<img src="picture/201604061459920222785_64.jpg" alt=""/></a>
+														<a href="" >
+															<img src="picture/201604061459919965720_64.jpg" alt=""/></a>
+													</li>
+												</ol>
+											</div>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- 小商品 -->
+				<div class="floorTrade bgff floorMb">
+					<div class="floorTradebox">
+						<div class="tradeBox-img floorW230 floorH370">
+							<a href=""><img src="picture/xsp.jpg" width="230" height="370"></a>
+						</div>
+						<div class="tradeBox-level">
+							<dl class="tradeBox-levelT">
+								<dt class="floorFloat">小商品</dt>
+								<dd class="floorFloat"><a href="#"></a></dd>
+								<dd class="floorFloat-R"><a href="#" class="textR"></a></dd>
+							</dl>
+							<div class="tradeBox-levelN">
+								<div class="floorFloat tradeLevelN-word">
+									<ul>
+										<li>
+											<a href="" class="alevel-bt">数码电脑</a>
+											<a href="">手机</a>
+											<a href="">手机保护套</a>
+											<a href="">数码相机</a>
+											<a href="">录音笔</a>
+											<a href="">移动硬盘</a>
+											<a href="">U盘</a>
+											<a href="">内存</a>
+											<a href="">机箱</a>
+										</li>
+									</ul>
+									<ul>
+										<li>
+											<a href="" class="alevel-bt">汽摩配件</a>
+											<a href="">专用汽车</a>
+											<a href="">车身附件 </a>
+										</li>
+										<li>
+											<a href="" class="alevel-bt">工艺礼品</a>
+											<a href="">工艺品</a>
+											<a href="">首饰</a>
+										</li>
+										<li>
+											<a href="" class="alevel-bt">玩具</a>
+											<a href="">益智玩具</a>
+											<a href="">模型玩具</a>
+										</li>
+									</ul>
+									<ul>
+										<li>
+											<a href="" class="alevel-bt">办公文教</a>
+											<a href="">办公耗材</a>
+											<a href="">文化设备</a>
+										</li>
+									</ul>
+								</div>
+								<div class="floorFloat-R tradeLevelN-img">
+								<span>
+									<a href="" class="LevelNimg-wz">硬盘</a>
+									<a href="" class="LevelNimg-wz">主板</a>
+								</span>
+								<span>
+									<a href="" class="LevelNimg-wz">冷却系统</a>
+									<a href="" class="LevelNimg-wz">民间工艺品</a>
+									<a href="" class="LevelNimg-wz">充气玩具</a>
+								</span>
+								<span>
+									<a href="" class="LevelNimg-wz">笔类</a>
+									<a href="" class="LevelNimg-wz">书类</a>
+								</span>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="floorSlider-ad">
+						<div class="sliderAdbox sliderAdbox-big">
+							<div class="sliderAdbox-title">
+								<h2>优品推荐</h2>
+								<span><em class="ad-number xn-index3">1</em>/<em class="xn-sureNum3">5</em></span>
+							</div>
+							<div class="sliderAdbox-nr xn-recommendBox3">
+								<div class="slideradNr-img">
+									<div class="xn_slideradNr">
+										<dl>
+											<dt class="adNr-img"><a href="">
+												<img src="picture/201602251456371370602_100.jpg" alt="">
+											</a></dt>
+											<dd class="adNr-word"><a href="">推荐|数码图文资料|数码商务印刷|学校数码快印|不干胶数码印</a></dd>
+											<dd class="adNr-price">￥5.4</dd>
+										</dl>
+										<dl class="floorMl">
+											<dt class="adNr-img"><a href="">
+												<img src="picture/201402111392105885833_100.jpg" alt="">
+											</a></dt>
+											<dd class="adNr-word"><a href=""> 山水湖泊生态水族箱</a></dd>
+											<dd class="adNr-price">￥100000.0</dd>
+										</dl>
+									</div>
+									<div class="xn_slideradNr fn-hide">
+										<dl>
+											<dt class="adNr-img"><a href="">
+												<img src="picture/201602251456371370602_100.jpg" alt="">
+											</a></dt>
+											<dd class="adNr-word"><a href="">推荐|数码图文资料|数码商务印刷|学校数码快印|不干胶数码印</a></dd>
+											<dd class="adNr-price">￥5.4</dd>
+										</dl>
+										<dl class="floorMl">
+											<dt class="adNr-img"><a href="">
+												<img src="picture/201402111392105885833_100.jpg" alt="">
+											</a></dt>
+											<dd class="adNr-word"><a href=""> 山水湖泊生态水族箱</a></dd>
+											<dd class="adNr-price">￥100000.0</dd>
+										</dl>
+									</div>
+									<div class="xn_slideradNr fn-hide">
+										<dl>
+											<dt class="adNr-img"><a href="">
+												<img src="picture/201602251456371370602_100.jpg" alt="">
+											</a></dt>
+											<dd class="adNr-word"><a href="">推荐|数码图文资料|数码商务印刷|学校数码快印|不干胶数码印</a></dd>
+											<dd class="adNr-price">￥5.4</dd>
+										</dl>
+										<dl class="floorMl">
+											<dt class="adNr-img"><a href="">
+												<img src="picture/201402111392105885833_100.jpg" alt="">
+											</a></dt>
+											<dd class="adNr-word"><a href=""> 山水湖泊生态水族箱</a></dd>
+											<dd class="adNr-price">￥100000.0</dd>
+										</dl>
+									</div>
+									<div class="xn_slideradNr fn-hide">
+										<dl>
+											<dt class="adNr-img"><a href="">
+												<img src="picture/201602251456371370602_100.jpg" alt="">
+											</a></dt>
+											<dd class="adNr-word"><a href="">推荐|数码图文资料|数码商务印刷|学校数码快印|不干胶数码印</a></dd>
+											<dd class="adNr-price">￥5.4</dd>
+										</dl>
+										<dl class="floorMl">
+											<dt class="adNr-img"><a href="">
+												<img src="picture/201402111392105885833_100.jpg" alt="">
+											</a></dt>
+											<dd class="adNr-word"><a href=""> 山水湖泊生态水族箱</a></dd>
+											<dd class="adNr-price">￥100000.0</dd>
+										</dl>
+									</div>
+									<div class="xn_slideradNr fn-hide">
+										<dl>
+											<dt class="adNr-img"><a href="">
+												<img src="picture/201602251456371370602_100.jpg" alt="">
+											</a></dt>
+											<dd class="adNr-word"><a href="">推荐|数码图文资料|数码商务印刷|学校数码快印|不干胶数码印</a></dd>
+											<dd class="adNr-price">￥5.4</dd>
+										</dl>
+										<dl class="floorMl">
+											<dt class="adNr-img"><a href="">
+												<img src="picture/201402111392105885833_100.jpg" alt="">
+											</a></dt>
+											<dd class="adNr-word"><a href=""> 山水湖泊生态水族箱</a></dd>
+											<dd class="adNr-price">￥100000.0</dd>
+										</dl>
+									</div>
+								</div>
+								<div class="slideradNr-word xn-showBox">
+									<ul class="xn-shopList xn-ctBox">
+										<li>
+											<a href="">&nbsp;经销批发火花机喷油管&nbsp;万向龙骨管&nbsp;球头喷水管&nbsp;竹节管&nbsp;关节</a>
+											<span>￥3.5/条</span>
+										</li>
+										<li class="li-mt">
+											<a href="">卡片U盘，礼品U盘</a>
+											<span>￥10.0/PCS</span>
+										</li>
+										<li>
+											<a href=""> 半挂车大车四轮定位仪价格镗鼓机(报价)</a>
+											<span>￥3600.0/台</span>
+										</li>
+										<li class="li-mt">
+											<a href=""> 亚克力接待台迎宾台演讲台七彩灯KTVi酒吧夜店DJ台VJ台</a>
+											<span>￥16500.0/件</span>
+										</li>
+										<li>
+											<a href="">贵阳防磁柜贵阳光盘防磁柜(贵阳地区总代理)</a>
+											<span>￥3888.0/台</span>
+										</li>
+										<li class="li-mt">
+											<a href="">&nbsp;济宁厂家直销新型儿童推土机/体验式推土机可骑可骑&nbsp;安全可靠</a>
+											<span>￥11000.0/件</span>
+										</li>
+										<li>
+											<a href=""> 加工制作人物类雕塑的厂家</a>
+											<span>￥4000.0/件</span>
+										</li>
+										<li class="li-mt">
+											<a href="">工艺品佛珠加工，全国招商</a>
+											<span>￥9.8/个</span>
+										</li>
+										<li>
+											<a href="">沈阳空压机大连空压机营口空压机鞍山空压机开山节能螺杆空压机</a>
+											<span>￥4000.0/台</span>
+										</li>
+										<li class="li-mt">
+											<a href=""> 带滑梯可攀岩的充气城堡蹦蹦床，厂家直销支持定制</a>
+											<span>￥9.8/平方</span>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="sliderAdbox sliderAdbox-small">
+							<div class="sliderAdbox-title">
+								<h2>实力供应商</h2>
+								<span class="floorMt"><em class="ad-sk ad-skf60"></em><em class="ad-sk"></em></span>
+							</div>
+							<div class="sliderAdbox-nr">
+								<div class="xn_tab fn-clear">
+									<ul class="slideradNr-company fn-left">
+										<li class="adNrcompany-list">
+											<p class="companyName"><i class="comActive">1</i><a href="">山水湖泊生态水族箱</a></p>
+											<div class="companyXq">
+												<ol>
+													<li class="company-zy"><span>主营：</span>生态水族箱</li>
+													<li class="company-ms"><span>经营模式：</span>招商代理</li>
+													<li class="company-cp"><span>产品：</span>31个</li>
+													<li class="company-tu">
+														<a href="" class="tu-ml">
+															<img src="picture/201402121392191711477_64.jpg" alt=""/></a>
+														<a href="" >
+															<img src="picture/201507081436325826242_64.jpg" alt=""/></a>
+													</li>
+												</ol>
+											</div>
+										</li>
+										<li class="adNrcompany-list">
+											<p class="companyName"><i>2</i><a href="">广州市美格视听科技有限公司</a></p>
+											<div class="companyXq fn-hide">
+												<ol>
+													<li class="company-zy"><span>主营：</span>无纸化,升降器,翻转器,会议系统</li>
+													<li class="company-ms"><span>经营模式：</span>经销批发</li>
+													<li class="company-cp"><span>产品：</span>11个</li>
+													<li class="company-tu">
+														<a href="" class="tu-ml">
+															<img src="picture/201605271464338963342_64.jpg" alt=""/></a>
+														<a href="" >
+															<img src="picture/201605271464344050675_64.jpg" alt=""/></a>
+													</li>
+												</ol>
+											</div>
+										</li>
+										<li class="adNrcompany-list">
+											<p class="companyName"><i>3</i><a href="">东莞市琦雅实业有限公司</a></p>
+											<div class="companyXq fn-hide">
+												<ol>
+													<li class="company-zy"><span>主营：</span>巧孩子生活家居,展示架，干燥架,运动，医疗器材,五金配件，精密五金</li>
+													<li class="company-ms"><span>经营模式：</span>生产产家</li>
+													<li class="company-cp"><span>产品：</span>12个</li>
+													<li class="company-tu">
+														<a href="" class="tu-ml">
+															<img src="picture/201605251464162259914_64.jpg" alt=""/></a>
+														<a href="" >
+															<img src="picture/201605211463830546390_64.jpg" alt=""/></a>
+													</li>
+												</ol>
+											</div>
+										</li>
+										<li class="adNrcompany-list">
+											<p class="companyName"><i>4</i><a href="">郑州辰宇游乐设备有限公司</a></p>
+											<div class="companyXq fn-hide">
+												<ol>
+													<li class="company-zy"><span>主营：</span>儿童蹦极,豪华转马,自控飞机,充气城堡</li>
+													<li class="company-ms"><span>经营模式：</span>生产产家</li>
+													<li class="company-cp"><span>产品：</span>37个</li>
+													<li class="company-tu">
+														<a href="" class="tu-ml">
+															<img src="picture/201605161463409541659_64.jpg" alt=""/></a>
+														<a href="" >
+															<img src="picture/201605161463409557310_64.jpg" alt=""/></a>
+													</li>
+												</ol>
+											</div>
+										</li>
+										<li class="adNrcompany-list">
+											<p class="companyName"><i>5</i><a href="">郑州百美游乐设备有限公司</a></p>
+											<div class="companyXq fn-hide">
+												<ol>
+													<li class="company-zy"><span>主营：</span>充气城堡,充气滑梯,充气沙滩池,钢架蹦极</li>
+													<li class="company-ms"><span>经营模式：</span>生产产家</li>
+													<li class="company-cp"><span>产品：</span>36个</li>
+													<li class="company-tu">
+														<a href="" class="tu-ml">
+															<img src="picture/201503211426929346021_64.jpg" alt=""/></a>
+														<a href="" >
+															<img src="picture/201503191426731068694_64.jpg" alt=""/></a>
+													</li>
+												</ol>
+											</div>
+										</li>
+									</ul>
+									<ul class="slideradNr-company fn-left">
+										<li class="adNrcompany-list">
+											<p class="companyName"><i class="comActive">1</i><a href="">阳春市金达包装制品厂</a></p>
+											<div class="companyXq">
+												<ol>
+													<li class="company-zy"><span>主营：</span>珠宝盒,钟表盒,茶叶木盒,酒盒</li>
+													<li class="company-ms"><span>经营模式：</span>生产产家</li>
+													<li class="company-cp"><span>产品：</span>22个</li>
+													<li class="company-tu">
+														<a href="" class="tu-ml">
+															<img src="picture/201406121402541061306_64.png" alt=""/></a>
+														<a href="" >
+															<img src="picture/201406121402540776163_64.png" alt=""/></a>
+													</li>
+												</ol>
+											</div>
+										</li>
+										<li class="adNrcompany-list">
+											<p class="companyName"><i>2</i><a href="">广州今祺信息科技有限公司</a></p>
+											<div class="companyXq fn-hide">
+												<ol>
+													<li class="company-zy"><span>主营：</span>小型机,存储,磁带库,交换机</li>
+													<li class="company-ms"><span>经营模式：</span>招商代理</li>
+													<li class="company-cp"><span>产品：</span>17个</li>
+													<li class="company-tu">
+														<a href="" class="tu-ml">
+															<img src="picture/201605111462962026708_64.jpg" alt=""/></a>
+														<a href="" >
+															<img src="picture/201605111462961648459_64.jpg" alt=""/></a>
+													</li>
+												</ol>
+											</div>
+										</li>
+										<li class="adNrcompany-list">
+											<p class="companyName"><i>3</i><a href="">上海连漾实业有限公司</a></p>
+											<div class="companyXq fn-hide">
+												<ol>
+													<li class="company-zy"><span>主营：</span>佛珠,手串</li>
+													<li class="company-ms"><span>经营模式：</span>招商代理</li>
+													<li class="company-cp"><span>产品：</span>6个</li>
+													<li class="company-tu">
+														<a href="" class="tu-ml">
+															<img src="picture/201605271464317179346_64.jpg" alt=""/></a>
+														<a href="" >
+															<img src="picture/201605271464315331539_64.jpg" alt=""/></a>
+													</li>
+												</ol>
+											</div>
+										</li>
+										<li class="adNrcompany-list">
+											<p class="companyName"><i>4</i><a href="">成都强川科技有限公司</a></p>
+											<div class="companyXq fn-hide">
+												<ol>
+													<li class="company-zy"><span>主营：</span>IBM服务器,惠普服务器,绵阳惠普服务器,绵阳IBM服务器</li>
+													<li class="company-ms"><span>经营模式：</span>商业服务</li>
+													<li class="company-cp"><span>产品：</span>24个</li>
+													<li class="company-tu">
+														<a href="" class="tu-ml">
+															<img src="picture/201605111462935409162_64.jpg" alt=""/></a>
+														<a href="http://www.fanna.com.cn/offer/1462935312377572.htm" >
+															<img src="" alt=""/></a>
+													</li>
+												</ol>
+											</div>
+										</li>
+										<li class="adNrcompany-list">
+											<p class="companyName"><i>5</i><a href="">东莞市巨人雕塑艺术有限公司</a></p>
+											<div class="companyXq fn-hide">
+												<ol>
+													<li class="company-zy"><span>主营：</span>雕塑工艺品,玻璃钢制品,金属制品,家具</li>
+													<li class="company-ms"><span>经营模式：</span>生产产家</li>
+													<li class="company-cp"><span>产品：</span>6个</li>
+													<li class="company-tu">
+														<a href="" class="tu-ml">
+															<img src="picture/201605121463023521814_64.png" alt=""/></a>
+														<a href="" >
+															<img src="picture/201605121463022124770_64.png" alt=""/></a>
+													</li>
+												</ol>
+											</div>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="floorTrade  floorMb">
+					<!-- 商业服务 -->
+					<div class="floorTradebox floorMr bgff">
+						<div class="tradeBox-img floorW230 floorH370">
+							<a href=""><img src="picture/syfw.jpg" width="230" height="370"></a>
+						</div>
+						<div class="tradeBox-level">
+							<dl class="tradeBox-levelT">
+								<dt class="floorFloat">商业服务</dt>
+								<dd class="floorFloat"><a href="#"></a></dd>
+								<dd class="floorFloat-R"><a href="#" class="textR"></a></dd>
+							</dl>
+							<div class="tradeBox-levelN">
+								<div class="floorFloat tradeLevelN-word">
+									<ul>
+										<li>
+											<a href="" class="alevel-bt">物流服务</a>
+											<a href="">物流服务</a>
+											<a href="">进出代理</a>
+											<a href="">特种物流</a>
+											<a href="">仓储配送</a>
+											<a href="">国际空运</a>
+											<a href="">国内空运</a>
+										</li>
+									</ul>
+									<ul>
+										<li>
+											<a href="" class="alevel-bt">广告设计</a>
+											<a href="">广告服务</a>
+											<a href="">设计服务</a>
+										</li>
+										<li>
+											<a href="" class="alevel-bt">商旅会展</a>
+											<a href="">商旅服务 </a>
+											<a href="">展览服务</a>
+										</li>
+										<li>
+											<a href="" class="alevel-bt">工商认证</a>
+											<a href="">工商服务 </a>
+											<a href="">财务服务 </a>
+										</li>
+									</ul>
+									<ul>
+										<li>
+											<a href="" class="alevel-bt">教育生活</a>
+											<a href="">中介服务</a>
+											<a href="">教育培训 </a>
+										</li>
+									</ul>
+								</div>
+								<div class="floorFloat-R tradeLevelN-img">
+								<span>
+									<a href="" class="LevelNimg-wz">平面设计</a>
+									<a href="" class="LevelNimg-wz">广告制作</a>
+								</span>
+								<span>
+									<a href="" class="LevelNimg-wz">综合类展会</a>
+									<a href="" class="LevelNimg-wz">企业日常服务</a>
+								</span>
+								<span>
+									<a href="" class="LevelNimg-wz">检测认证</a>
+									<a href="" class="LevelNimg-wz">公司注册 </a>
+								</span>
+								<span>
+									<a href="" class="LevelNimg-wz">人才中介</a>
+									<a href="" class="LevelNimg-wz">招聘职位</a>
+								</span>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- 机械市场 -->
+					<div class="floorTradebox bgff">
+						<div class="tradeBox-img floorW230 floorH370">
+							<a href=""><img src="picture/jxsc.jpg" width="230" height="370"></a>
+						</div>
+						<div class="tradeBox-level">
+							<dl class="tradeBox-levelT">
+								<dt class="floorFloat">机械市场</dt>
+								<dd class="floorFloat"><a href="#"></a></dd>
+								<dd class="floorFloat-R"><a href="#" class="textR"></a></dd>
+							</dl>
+							<div class="tradeBox-levelN">
+								<div class="floorFloat tradeLevelN-word">
+									<ul>
+										<li>
+											<a href="" class="alevel-bt">阀门</a>
+											<a href="">疏水阀</a>
+											<a href="">蝶阀</a>
+											<a href="">柱塞阀</a>
+											<a href="">闸阀</a>
+											<a href="">膨胀阀</a>
+											<a href="">脚踏阀</a>
+											<a href="">阀体</a>
+											<a href="">电磁阀</a>
+										</li>
+									</ul>
+									<ul>
+										<li>
+											<a href="" class="alevel-bt">矿山施工设备</a>
+											<a href="">钻采设备</a>
+											<a href="">爆破设备</a>
+										</li>
+										<li>
+											<a href="" class="alevel-bt">包装设备</a>
+											<a href="">包装生产线</a>
+											<a href="">包装辅助设备</a>
+										</li>
+										<li>
+											<a href="" class="alevel-bt">工程机械</a>
+											<a href="">起重机</a>
+											<a href="">挖掘机械</a>
+										</li>
+									</ul>
+									<ul>
+										<li>
+											<a href="" class="alevel-bt">农业机械</a>
+											<a href="">饲料加工</a>
+											<a href="">拖拉机</a>
+										</li>
+									</ul>
+								</div>
+								<div class="floorFloat-R tradeLevelN-img">
+								<span>
+									<a title="调节阀" href="" class="LevelNimg-wz">调节阀</a>
+									<a title="止回阀" href="" class="LevelNimg-wz">止回阀</a>
+								</span>
+								<span>
+									<a title="凿岩机械" href="" class="LevelNimg-wz">凿岩机械</a>
+									<a title="打包机械" href="" class="LevelNimg-wz">打包机械</a>
+									<a title="混凝土泵" href="" class="LevelNimg-wz">混凝土泵</a>
+								</span>
+								<span>
+									<a title="屠宰及肉" href="" class="LevelNimg-wz">屠宰及肉</a>
+									<a title="管用机械" href="" class="LevelNimg-wz">管用机械</a>
+								</span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="floorTrade floorMb">
+					<!-- 冶金市场 -->
+					<div class="floorTradebox floorMr bgff">
+						<div class="tradeBox-img floorW230 floorH370">
+							<a href=""><img src="picture/yjsc.jpg" width="230" height="370"></a>
+						</div>
+						<div class="tradeBox-level">
+							<dl class="tradeBox-levelT">
+								<dt class="floorFloat">冶金市场</dt>
+								<dd class="floorFloat"><a href="#"></a></dd>
+								<dd class="floorFloat-R"><a href="#" class="textR"></a></dd>
+							</dl>
+							<div class="tradeBox-levelN">
+								<div class="floorFloat tradeLevelN-word">
+									<ul>
+										<li>
+											<a href="" class="alevel-bt" title="有色金属合金">有色金属合金</a>
+											<a href="" title="金属加工材">金属加工材</a>
+											<a href="" title="有色金属合金">有色金属合金</a>
+											<a href="" title="铁合金">铁合金</a>
+											<a href="" title="有色金属">有色金属</a>
+											<a href="" title="废金属">废金属</a>
+										</li>
+									</ul>
+									<ul>
+										<li>
+											<a href="" class="alevel-bt" title="冶金制品及设备">冶金制品及设备</a>
+											<a href="" title="不锈钢材">不锈钢材</a>
+											<a href="" title="金属网">金属网</a>
+											<a href="" title="冶炼设备">冶炼设备</a>
+											<a href="" title="优特钢">优特钢</a>
+										</li>
+									</ul>
+									<ul>
+										<li>
+											<a href="" class="alevel-bt" title="矿产及设备">矿产及设备</a>
+											<a href="" title="非金属矿产">非金属矿产</a>
+											<a href="" title="开采选矿设备">开采选矿设备</a>
+											<a href="" title="地矿勘测设备">地矿勘测设备</a>
+										</li>
+									</ul>
+								</div>
+								<div class="floorFloat-R tradeLevelN-img">
+								<span>
+									<a href="" class="LevelNimg-wz">炉料</a>
+									<br>
+								</span>
+								<span>
+									<a href="" class="LevelNimg-wz">钢材</a>
+									<br><br>
+								</span>
+								<span>
+									<a href="" class="LevelNimg-wz">矿山施工设备</a>
+								</span>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- 电子市场 -->
+					<div class="floorTradebox bgff">
+						<div class="tradeBox-img floorW230 floorH370">
+							<a href=""><img src="picture/dzsc.jpg" width="230" height="370"></a>
+						</div>
+						<div class="tradeBox-level">
+							<dl class="tradeBox-levelT">
+								<dt class="floorFloat">电子市场</dt>
+								<dd class="floorFloat"><a href="#"></a></dd>
+								<dd class="floorFloat-R"><a href="#" class="textR"></a></dd>
+							</dl>
+							<div class="tradeBox-levelN">
+								<div class="floorFloat tradeLevelN-word">
+									<ul>
+										<li>
+											<a href="" class="alevel-bt">电子产品设备</a>
+											<a href="">电子电器生产线</a>
+											<a href="">半导体材料</a>
+											<a href="">屏蔽材料</a>
+											<a href="">电子五金材料</a>
+											<a href="">电磁铁</a>
+										</li>
+									</ul>
+									<ul>
+										<li>
+											<a href="" class="alevel-bt">绝缘磁性材料</a>
+											<a href="">绝缘垫片</a>
+											<a href="">绝缘子</a>
+											<a href="">绝缘套管</a>
+											<a href="">软磁材料</a>
+											<a href="">永磁材料</a>
+										</li>
+									</ul>
+									<ul>
+										<li>
+											<a href="" class="alevel-bt">开关及元件</a>
+											<a href="">限位开关</a>
+											<a href="">微动开关</a>
+											<a href="">压力开关</a>
+											<a href="">按钮开关</a>
+											<a href="">行程开关</a>
+										</li>
+									</ul>
+								</div>
+								<div class="floorFloat-R tradeLevelN-img">
+								<span>
+									<a href="" class="LevelNimg-wz">打胶机 </a>
+									<a href="" class="LevelNimg-wz">压接机 </a>
+								</span>
+								<span>
+									<a href="" class="LevelNimg-wz">绕线机、绞线机</a>
+									<a href="" class="LevelNimg-wz">电子精细化工材料 </a>
+								</span>
+								<span>
+									<a href="" class="LevelNimg-wz">电工胶带 </a>
+									<a href="" class="LevelNimg-wz">其他磁性材料 </a>
+								</span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="floorTrade">
+					<!-- 五金市场 -->
+					<div class="floorTradebox  floorMr bgff">
+						<div class="tradeBox-img floorW230 floorH370">
+							<a href=""><img src="picture/wjgj.jpg" width="230" height="370"></a>
+						</div>
+						<div class="tradeBox-level">
+							<dl class="tradeBox-levelT">
+								<dt class="floorFloat">五金工具</dt>
+								<dd class="floorFloat"><a href="#"></a></dd>
+								<dd class="floorFloat-R"><a href="#" class="textR"></a></dd>
+							</dl>
+							<div class="tradeBox-levelN">
+								<div class="floorFloat tradeLevelN-word">
+									<ul>
+										<li>
+											<a href="" class="alevel-bt">行业工具</a>
+											<a href="">气动工具</a>
+											<a href="">手动工具</a>
+										</li>
+										<li>
+											<a href="" class="alevel-bt">五金零件</a>
+											<a href="">电动工具</a>
+											<a href="">磨具</a>
+										</li>
+									</ul>
+									<ul>
+										<li>
+											<a href="" class="alevel-bt">机件元件</a>
+											<a href="">维护工具</a>
+											<a href="">气动元件</a>
+										</li>
+										<li>
+											<a href="" class="alevel-bt">器材配件</a>
+											<a href="">通用五金配件</a>
+											<a href="">门窗五金</a>
+										</li>
+									</ul>
+									<ul>
+										<li>
+											<a href="" class="alevel-bt">生活用品</a>
+											<a href="">量具</a>
+											<a href="">锁具</a>
+											<a href="">弹簧</a>
+											<a href="">刀具</a>
+											<a href="">滚刀</a>
+											<a href="">锯</a>
+											<a href="">剪刀</a>
+											<a href="">片弹簧</a>
+											<a href="">千分尺</a>
+											<a href="">自行车锁</a>
+											<a href="">工装夹具</a>
+										</li>
+									</ul>
+								</div>
+								<div class="floorFloat-R tradeLevelN-img">
+								<span>
+									<a href="" class="LevelNimg-wz">砂纸 </a>
+									<a href="" class="LevelNimg-wz">千斤顶</a>
+								</span>
+								<span>
+									<a href="" class="LevelNimg-wz">密码锁</a>
+									<a href="" class="LevelNimg-wz">三角阀 </a>
+								</span>
+								<span>
+									<a href="" class="LevelNimg-wz">电子尺</a>
+									<a href="" class="LevelNimg-wz">卷尺</a>
+								</span>
+								<span>
+									<a href="" class="LevelNimg-wz">手动螺丝刀 </a>
+									<a href="" class="LevelNimg-wz">斗齿 </a>
+								</span>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!--防护市场 -->
+					<div class="floorTradebox bgff">
+						<div class="tradeBox-img floorW230 floorH370">
+							<a href=""><img src="picture/aqfh.jpg" width="230" height="370"></a>
+						</div>
+						<div class="tradeBox-level">
+							<dl class="tradeBox-levelT">
+								<dt class="floorFloat">安全防护</dt>
+								<dd class="floorFloat"><a href="#"></a></dd>
+								<dd class="floorFloat-R"><a href="#" class="textR"></a></dd>
+							</dl>
+							<div class="tradeBox-levelN">
+								<div class="floorFloat tradeLevelN-word">
+									<ul>
+										<li>
+											<a href="" class="alevel-bt">防盗报警设备</a>
+											<a href="">探头、感应器</a>
+											<a href="">电话报警设备</a>
+											<a href="">报警器</a>
+											<a href="">集成防盗报警系统</a>
+										</li>
+									</ul>
+									<ul>
+										<li>
+											<a href="" class="alevel-bt">作业防护</a>
+											<a href="">安全网</a>
+											<a href="">防护服</a>
+										</li>
+										<li>
+											<a href="" class="alevel-bt">消防设备</a>
+											<a href="">灭火器材</a>
+											<a href="">火警探测</a>
+											<a href="">报警设备</a>
+											<a href="">防火设备</a>
+										</li>
+									</ul>
+									<ul>
+										<li>
+											<a href="" class="alevel-bt">交通安全设备</a>
+											<a href="">路障</a>
+											<a href="">护栏、护栏网</a>
+											<a href="">道路减速设备</a>
+											<a href="">交通安全标志</a>
+										</li>
+									</ul>
+								</div>
+								<div class="floorFloat-R tradeLevelN-img">
+								<span>
+									<a href="" class="LevelNimg-wz">个人报警器</a>
+									<br>
+								</span>
+								<span>
+									<a href="" class="LevelNimg-wz">防护帽</a>
+									<a href="" class="LevelNimg-wz">电子巡更系统</a>
+								</span>
+								<span>
+									<br>
+								</span>
+								<span>
+									<a href="" class="LevelNimg-wz">监视器</a>
+									<a href="" class="LevelNimg-wz">红外线灯</a>
+								</span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="bigBox linkBox">
+		<div class="fanlink">
+			<span>友情链接：</span>
+			<ul>
+				<li><a href="">中国供求网</a></li>
+				<li><a href="">百方网</a></li>
+				<li><a href="">租车</a></li>
+				<li><a href="">机床工厂店</a></li>
+				<li><a href="">B2B采购网</a></li>
+				<li><a href="">磨料磨具网</a></li>
+				<li><a href="">贸易谷</a></li>
+				<li><a href="">信息兰州</a></li>
+				<li><a href="">鞋材网</a></li>
+				<li><a href="">商务服务网</a></li>
+				<li><a href="">二手车</a></li>
+				<li><a href="">铸造网</a></li>
+				<li><a href="">家纺招商网</a></li>
+				<li><a href="">B2B</a></li>
+				<li><a href="">电脑维修</a></li>
+				<li><a href="">兰城网</a></li>
+				<li><a href="">品牌化妆网</a></li>
+				<li><a href="">劳保用品</a></li>
+				<li><a href="">亲子照</a></li>
+				<li><a href="">企翼网</a></li>
+				<li><a href="">商路通</a></li>
+				<li><a href="">免费B2B商务</a></li>
+				<li><a href="" class="linkmore">更多&gt&gt</a></li>
+			</ul>
+		</div>
+	</div>
+</section>
+
+<footer>
+	<div class="bigBox noviceBox">
+		<div class="novice">
+			<div><img src="picture/btmicon.png"></div>
+			<dl>
+				<dt class="dt01">新手指南</dt>
+				<dd><a href="">注册新用户</a></dd>
+				<dd><a href="">新手入门</a></dd>
+				<dd><a href="">客服中心</a></dd>
+				<dd><a href="">买家帮助</a></dd>
+				<dd><a href="">卖家帮助</a></dd>
+			</dl>
+			<dl>
+				<dt class="dt02">我是采购商</dt>
+				<dd><a href="">发布采购信息</a></dd>
+				<dd><a href="">采购平台</a></dd>
+				<dd><a href="">询价单管理</a></dd>
+				<dd><a href="">找供应商</a></dd>
+				<dd><a href="">行业市场</a></dd>
+			</dl>
+			<dl>
+				<dt class="dt03">我是供应商</dt>
+				<dd><a href="">发布产品</a></dd>
+				<dd><a href="">采购报价</a>
+				<dd><a href="">生财利器</a></dd>
+				<dd><a href="">开店赚钱</a></dd>
+				<dd><a href="" class="txt_rit">推广产品</a></dd>
+			</dl>
+			<dl>
+				<dt class="dt04">交易保障</dt>
+				<dd><a href="">实名认证</a></dd>
+				<dd><a href="">贸易防骗</a></dd>
+				<dd><a href="">买买规则</a></dd>
+				<dd><a href="">投诉举报</a></dd>
+			</dl>
+			<ul >
+				<li><a href="" class="logo_sct"></a></li>
+				<li>&nbsp中&nbsp小&nbsp企&nbsp业&nbsp生&nbsp财&nbsp帮&nbsp手</li>
+				<li><a href="" class="service">联系在线客服</a></li>
+				<li class="poh_400">400-189-8820</li>
+				<li>周一至周日9:00-23:00</li>
+				<li><a href="" class="a_sina"></a><a href="#" class="a_tencent"></a><a href="#" class="a_weChat"></a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="bigBox footerBox">
+		<div class="footer">
+			<ul>
+				<li>
+					<a href="">关于买买</a><span>|</span>
+					<a href="">联系我们</a><span>|</span>
+					<a href="">合作事宜</a><span>|</span>
+					<a href="">网站地图</a><span>|</span>
+					<a href="">公司资质</a><span>|</span>
+					<a href="">加入我们</a><span>|</span>
+					<a href="">法律声明</a><span>|</span>
+					<a href="">服务条款</a>
+				</li>
+				<li class="li666">Copyright 2007-2015 fanna.com.cn 版权所有 信息产业部备案：陇ICP备11000601号
+					&nbsp;&nbsp;<a href="" style="color:#666;"><img src="picture/beian.png" width="20" height="20" style="margin-right:5px"/>甘公网安备: <span style="color:#666;">62010202000018号</span></a>
+				</li>
+				<li class="li_iconImg">
+					<a href=""><img src="picture/footer_img02.png" width="34" alt=""/></a>
+					<a href=""><img src="picture/footer_img03.png" width="44" alt=""/></a>
+					<a id='___szfw_logo___' href=''><img src="picture/cert.png" border='0'/></a>
+					<a href=""><img src="picture/footer_img06.png" height="30" alt=""/></a>
+				</li>
+			</ul>
+		</div>
+	</div>
+</footer>
+
+<script src="js/jquery.min.js"></script>
+<script src="js/top.min.js"></script>
+<script src="js/common.min.js"></script>
+<script src="js/index.min.js"></script>
+</body>
+</html>

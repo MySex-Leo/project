@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="../css/footer.min.css"/>
+    <style>
+        #footer div.footer-content dl{
+            margin: 130px auto;
+        }
+        #footer div.footD{
+            margin-top: 70px;
+        }
+    </style>
+</head>
+<body>
+<div id="header"></div>
+<br/>
+<div id="footer">
+    <div class="footer-content">
+        <dl>
+            <dt>
+                <img src="../images/index/tel.jpg"/>
+            </dt>
+            <dd class="first-d">联系我们</dd>
+            <dd>可以在工作日的上午九点至下午五点半联系我们，联系电话：010-87526424</dd>
+            <dd><a href="#">联系&gt;&gt;</a></dd>
+        </dl>
+        <dl>
+            <dt>
+                <img src="../images/index/email.jpg"/>
+            </dt>
+            <dd class="first-d">我们的邮箱</dd>
+            <dd>可以任何时间发邮件给我们，我们会尽快回复，邮箱地址：yunfuwu.com</dd>
+            <dd><a href="#">发邮件&gt;&gt;</a></dd>
+        </dl>
+        <dl>
+            <dt>
+                <img src="../images/index/address.jpg"/>
+            </dt>
+            <dd class="first-d">我们的地址</dd>
+            <dd>可以公司预约详谈，公司地址为：北京市海淀区海淀大街27号天使大厦（原亿景大厦）三层</dd>
+            <dd><a href="#">预约&gt;&gt;</a></dd>
+        </dl>
+        <dl>
+            <dt>
+                <img src="../images/index/tel.jpg"/>
+            </dt>
+            <dd class="first-d">我们的传真</dd>
+            <dd>可以任何时间发传真给我们，我们会尽快回复，传真：010-87526666</dd>
+            <dd><a href="#">传真&gt;&gt;</a></dd>
+        </dl>
+    </div>
+    <div class="footD">
+        <p>版权所有：中国企业移动化云服务科技有限公司 |</p>
+        <span>&nbsp;北京市公安局备案编号110105014669 |</span>
+        <span>&nbsp;地址：北京市海淀区海淀大街27号天使大厦（原亿景大厦）三层</span>
+    </div>
+</div>
+<script src="../js/jquery-1.11.3.min.js"></script>
+<script>
+    $('#header').load('header.html', function(){
+        if(sessionStorage['loginUname']===undefined){
+            $('#welcome').html('您好，欢迎来到本网站')
+        }else{
+            $('#welcome').html('欢迎回来：'+sessionStorage['loginUname']);
+        }
+
+    });
+</script>
+</body>
+</html>
